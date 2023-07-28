@@ -1,0 +1,314 @@
+body img {
+	border: 1px solid #908d8d;
+	border-radius: 10px;
+	box-shadow: 0px 5px 10px #0000004f;
+	transition: transform 0.1s ease-in-out;
+}
+
+body img:hover {
+	transform: scale(105%);
+}
+
+.pages {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: flex-start;
+	width: 100%;
+}
+
+.page-main-container {
+	width: 60%;
+}
+
+.page-side-container {
+	width: 20%;
+}
+
+/* * Home */
+.home-grid-container {
+	display: grid;
+	grid-template-columns: 342px 342px 10px 345px;
+	grid-template-rows: 190px 10px 190px;
+	width: 80%;
+	margin-inline: auto;
+}
+
+.home-grid-container a {
+	text-decoration: none;
+}
+
+.home-grid-img {
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+}
+
+#home-grid-div-1 {
+	grid-area: 1/1 / span 3 / span 2;
+}
+
+#home-grid-div-2 {
+	grid-area: 1/4/2/5;
+}
+
+#home-grid-div-3 {
+	grid-area: 3/4/3/5;
+}
+
+/* #home-grid-img-1 {
+	width: 683px;
+	height: 390px;
+} */
+
+#grid-heading-1 {
+	font-size: 2.5em;
+	bottom: 8rem;
+	left: 2rem;
+}
+
+.home-grid-blogs-heading {
+	position: relative;
+	z-index: 2;
+	color: white;
+	text-decoration-line: underline;
+	font-family: Montserrat;
+	bottom: 4rem;
+	left: 3rem;
+	font-weight: 600;
+	font-size: 1.5em;
+}
+
+.home-heading {
+	font-family: Montserrat;
+	margin-left: 6rem;
+	margin-top: 5rem;
+}
+
+.home-main-hr {
+	width: 83.5%;
+	border: none;
+	height: 2px;
+	background-color: #f0f0f0;
+	margin-bottom: 4rem;
+}
+
+.home-latest-flex-container {
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: nowrap;
+}
+
+.home-latest-flex-container a {
+	text-decoration: none;
+	color: black;
+}
+
+/* * Bollywood * */
+.page-heading {
+	margin-bottom: 3rem;
+	font-family: Montserrat;
+	margin-left: 5px;
+	margin-top: 0;
+	border-bottom: 4px solid #f08080;
+	padding-bottom: 4px;
+	width: fit-content;
+}
+
+/* * focused blog page */
+.focused-page {
+	margin: 50px 20%;
+	align-items: center;
+}
+
+.focused-page img {
+	width: 100%;
+	margin: 20px 0;
+	height: 500px;
+	border-radius: 15px;
+}
+
+.focusedPage-back-btn {
+	border-radius: 10px;
+	color: black;
+	font-size: 1.6em;
+	margin-inline: auto;
+	display: block;
+	cursor: pointer;
+	margin-top: 5rem;
+	background-color: white;
+}
+
+.main-blog>h1 {
+	text-align: center;
+	font-family: Montserrat;
+}
+
+.blog-info+p::first-letter {
+	text-transform: capitalize;
+	font-size: 1.4em;
+}
+
+@media only screen and (max-width:600px) {
+	.pages {
+		gap: 20px;
+	}
+
+	.nav-list {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.home-grid-container {
+		grid-template-columns: 42vw 42vw;
+		grid-template-rows: 10rem 10rem;
+		gap: 10px;
+		width: 90%;
+	}
+
+	#home-grid-div-1 {
+		grid-area: 1/1/1/3
+	}
+
+
+	#home-grid-div-2 {
+		grid-area: 2/1/3/2;
+	}
+
+	#home-grid-div-3 {
+		grid-area: 2/2/3/3;
+	}
+
+	.home-grid-container img {
+		height: 100%;
+		width: 100%;
+	}
+
+	#grid-heading-1 {
+		font-size: 1.4em;
+		position: relative;
+		bottom: 80px;
+		left: 1rem;
+	}
+
+	.home-grid-blogs-heading {
+		font-size: 1.1em;
+		left: 0;
+	}
+
+	.nav-list li {
+		flex: 0 1 20%;
+	}
+
+	.home-heading {
+		margin-top: 3rem;
+		font-size: 5vw;
+		margin-inline: 1.2rem;
+	}
+
+	.home-latest-flex-container {
+		flex-direction: column;
+		gap: 25px;
+	}
+
+	.home-latest-blogs {
+		flex-grow: 0;
+		flex-shrink: 1;
+		flex-basis: 0%;
+	}
+
+	.Mcard-container {
+		height: 400px;
+		width: 90%;
+		margin-inline: auto;
+	}
+
+	.Mcard-img img {
+		height: 200px;
+		width: 100%;
+		object-position: top;
+	}
+
+	.Mcard-data h2 {
+		font-size: 1.2em;
+	}
+
+	.cardBig-flexHr {
+		justify-content: center;
+		align-items: center;
+		gap: 20px;
+	}
+
+	.cardBig-img {
+		height: fit-content;
+		width: 8rem;
+	}
+
+	.cardBig-flexVr {
+		flex: 1 0 0%;
+	}
+
+	.focused-page {
+		margin: 50px 10%
+	}
+
+	.cardBig-title {
+		font-size: 4vw;
+	}
+
+	.page-main-container,
+	.page-side-container {
+		flex-grow: 1;
+		flex-shrink: 1;
+		flex-basis: 0%;
+	}
+
+	.topPost-flexHr {
+		flex-direction: row;
+		width: 100%;
+		gap: 15px;
+	}
+
+	.topPost-img-container {
+		flex: 1 1 0%;
+		width: fit-content;
+		flex-wrap: wrap;
+		display: flex;
+	}
+
+	#topPost-img-0,
+	topPost-img {
+		width: 100%;
+		aspect-ratio: 4/3;
+		height: initial;
+	}
+
+	#topPost-img-0 {
+		width: 6rem;
+		height: 6rem;
+	}
+
+	.topPost-title {
+		font-size: 3vw;
+		width: 100px;
+	}
+
+	.topPost-descTags {
+		font-size: 2vw;
+	}
+
+	.topPost-flexVr {
+		justify-content: center;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	.page-side-container {
+		display: none;
+	}
+}
