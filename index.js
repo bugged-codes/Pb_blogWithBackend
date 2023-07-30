@@ -13,497 +13,244 @@ app.get('/', (req, res) => {
 	res.json([
 		{
 			id: 1,
-			title: 'Shah Rukh Khan',
-			img: 'https://media2.bollywoodhungama.in/wp-content/uploads/2022/05/Why-SRK%E2%80%99s-Residence%E2%80%99s-Nameplate-Was-Removed-2.jpg',
+			title: 'Pathan(2023)',
+			img: 'https://static.toiimg.com/photo/95246650.cms',
 			category: 'Bollywood',
+			tags: '',
 			description:
-				'It seems like the diamonds on the plate are to blame here. According to a close friend of the actor the nameplate was taken down for reasons of safety.“That is one expensive nameplate, probably one of its kind in the entire world, and so after it was put up, it was brought to the host’s attention that it was not safe to have precious stones studded on to the wall. Shah Rukh decided to remove the nameplate from its place of public accessibility for the time being,” the friend reveals.',
-		},
-		{
-			id: 51,
-			title: 'Amitabh Bachchanr',
-			img: 'https://media.gettyimages.com/photos/indian-actor-amitabh-bachchan-poses-on-the-red-carpet-for-the-4th-picture-id97942617?k=20&m=97942617&s=612x612&w=0&h=sjWZ5uQGKCfe3xuaEnbRluarZVhCinXidBwJjJaUtho=',
-			category: 'bollywood',
-			description:
-				'Amitabh Bachchan was born on October 11, 1942 in Allahabad, British India (present-day Prayagraj, Uttar Pradesh, India) to legendary poet Harivansh Rai Bachchan & Teji Bachchan. He also has a brother named Ajitabh. He completed his education from Uttar Pradesh and moved to Bombay to find work',
+				'Pathaan is a 2023 Bollywood spy thriller action drama film directed by Siddharth Anand and starring Shah Rukh Khan, Deepika Padukone and John Abraham in the lead roles. The film is the fourth installment in the YRF Spy Universe and follows the exiled RAW agent Pathaan (Khan) who teams up with ISI agent Rubina Mohsin (Padukone) to stop Jim (Abraham), a former RAW agent, from unleashing a deadly virus on India.The film is a spectacular showcase of action, romance and patriotism, with stunning visuals and breathtaking stunts.\n The film has been shot in various locations across India, Afghanistan, Spain, UAE, Turkey, Russia, Italy and France, giving it a global appeal. The film also features a cameo appearance by Salman Khan as Tiger, another spy from the YRF Spy Universe. The film has received positive reviews from critics and audiences alike, who have praised the performances of the lead actors, the direction, the music and the action sequences. The film has also broken several box office records in India and overseas, becoming the highest-grossing Hindi film of all time and the second-highest-grossing Indian film of all time. Pathaan is a must-watch film for fans of Shah Rukh Khan and spy thrillers. The film delivers on its promise of being a thrilling and entertaining ride that will keep you on the edge of your seat till the end. The film also sets up the stage for more exciting adventures in the YRF Spy Universe. Pathaan is a film that celebrates the spirit of India and its heroes who fight for its safety and glory.',
 		},
 		{
 			id: 2,
-			title: 'Deepika Padukone EXUDES desi vibes with a modern touch in a white ruffle saree during the closing ceremony',
-			img: 'https://st1.bollywoodlife.com/wp-content/uploads/2022/05/Deepika-76.png',
+			title: 'Fursat(2023)',
+			img: 'https://static.toiimg.com/photo/97619521.cms',
 			category: 'Bollywood',
 			description:
-				"Gehraiyaan actress Deepika Padukone is among the few stars who are representing India at Cannes 2022. She is churning out some fabulous fashion stints leaving all her fans mesmerised. For the closing ceremony of the international film festival, the actress opted to go all desi. But not without a modern touch.After wearing some classic modern pieces, Deepika Padukone chose a Abu Jani-Sandeep Khosla creation to end her stint at Cannes 2022.The actress looked absolutely divine as walked the red carpet wearing this beautiful saree. The neckpiece made of pearls added much glam to the sweet saree.  The actress attended the press conference with other jury members Rebecca Hall and Jeff Nichols. Sticking to her roots, she greeted everyone with a namaste.Well, if this picture does not hypnotise you then we don't know what will. Subtle makeup, pearl earrings and more - the actress looked drop-dead gorgeous as ever.",
+				'Fursat is a simple yet effective short film that works mainly because of Vishal Bharadwaj’s ability to tell a meaningful tale even with limited resources. It stars Ishaan Khatter and Wamiqa Gabbi. In Short Fursat is out on Disney+ Hotstar. The short film stars Ishaan Khatter and Wamiqa Gabbi. Fursat is shot on an iPhone. By Roktim Rajpal: Fursat, out now on Disney+ Hotstar, is a simple yet ambitious short film that works mainly because of Vishal Bharadwaj’s command over his craft. It is shot on an iPhone and revolves around a young man who is able to see the future because of a mysterious device, which he calls the Doordarshak. Using the device, he comes to know that something bad is going to happen to his friend. Following this, he sets out on a mission to protect her. The plot is inherently interesting and caters to those fond of grand romantic dramas. That said, one gets the feeling that it would have worked better had this been a feature film. Fursat begins with a shocking scene that sets the stage for what is to follow. We are then treated to the well-executed Waqt song that hits the right notes because of its meaningful lyrics. It also takes the narrative forward without breaking the flow. The action soon shifts to the robbery, which forms the crux of Fursat. The sequences have a sense of urgency, which makes them feel haunting. Their impact is further enhanced by a twist, which feels natural and adds a new layer to the narrative.',
 		},
-		{
-			id: 61,
-			title: 'Deepika Padukone EXUDES desi vibes with a modern touch in a white ruffle saree during the closing ceremony',
-			img: 'https://st1.bollywoodlife.com/wp-content/uploads/2022/05/Deepika-76.png',
-			category: 'footer1',
-			description:
-				"Gehraiyaan actress Deepika Padukone is among the few stars who are representing India at Cannes 2022. She is churning out some fabulous fashion stints leaving all her fans mesmerised. For the closing ceremony of the international film festival, the actress opted to go all desi. But not without a modern touch.After wearing some classic modern pieces, Deepika Padukone chose a Abu Jani-Sandeep Khosla creation to end her stint at Cannes 2022.The actress looked absolutely divine as walked the red carpet wearing this beautiful saree. The neckpiece made of pearls added much glam to the sweet saree.  The actress attended the press conference with other jury members Rebecca Hall and Jeff Nichols. Sticking to her roots, she greeted everyone with a namaste.Well, if this picture does not hypnotise you then we don't know what will. Subtle makeup, pearl earrings and more - the actress looked drop-dead gorgeous as ever.",
-		},
-
 		{
 			id: 3,
-			title: "SS Rajamouli's RRR hailed by Eternals star Patton Oswalt:  RRR is insane",
-			img: 'https://filmfare.wwmindia.com/content/2022/may/rrrpattonoswalt41653717404.jpg',
+			title: 'Kutty(2023)',
+			img: 'https://static.toiimg.com/photo/96757813.cms',
 			category: 'Bollywood',
 			description:
-				"Hollywood comedian and actor Patton Oswalt cannot get enough of RRR. The actor who is best known for his Marvel roles including Eternals was left impressed with director SS Rajamouli's latest magnum opus. He recently took to Twitter to recommend the movie.RR was a megahit that had a successful box office run. Apart from breaking records in Indian cinemas, the film also garnered huge praise from international critics and audiences. In a Tweet, Patton Oswalt urged people to watch RRR. He wrote, “If this ISN’T playing near you in IMAX then this is the next best way to watch it. Fucken @RRRMovie is insane.When the team of RRR responded to thank Oswalt, he replied, “You guys are out of your f**king minds, you should not be allowed to make films, and I can’t wait to see what you do next.RR is a period drama starring Ram Charan and NTR Jr and follows two revolutionaries - Alluri Sitarama Raju and Komaram Bheem as they go up against the British rule in India. The film was released on March 24 this year. Since then, it has garnered significant buzz. It also kickstarted a debate on the way pan-India films are perceived.",
+				'Four top Tamil filmmakers - Gautham Vasudev Menon, Vijay, Venkat Prabhu and Nalan Kumarasamy have come together to offer insight into love, hope and relationships with their unique storylines in an anthology titled Kutty Story. Though it’s refreshing to watch short films that don’t entirely bank on star power, only two of the four stories create any impact and give us something to take home. Gautham Menon’s Edhirpaara Mutham and Nalan Kumarasamy’s Aadal Paadal hits the right note and stays true to the genre. Though Nalan is the youngest when compared to other filmmakers of this anthology, his short-filmmaking finesse stands tall.Director: Gautham Menon Cast: Gautham Menon, Amala Paul, Vinoth Krishnan and Robo Shankar. Edhirpara Mutham revolves around the lives of two engineering students - Aadhi (Vinoth Krishnan) and Mrinalini (Amala Paul), who are best friends. Though they get along well and spend most of the time together, Aadhi and Mrinalini believe that there is an invisible line between love and friendship and they shouldn’t cross it for any reason. Aadhi insists the same to his friends and says that a man and woman can just be friends no matter what. However, the events that unfold in the later stage of his life destroy his theory and make him understand that there is love between the two. But is it too late now? Edhirpaara Mutham is exactly what we can expect from a Gautham Menon film and he has stayed true to his genre. Be it a 20-minute short film or a 120-minute drama, Gautham has always managed to bring the audience into his world where there are only two souls with a kind of divine love between them. Their relationship is often complicated as well as matured. Gautham Menon, in Edhirpara Mutham, plays the elder version of Vinoth Krishnan. The role suits him perfectly and he has pulled it off with ease.',
 		},
 		{
 			id: 4,
-			title: "Shah Rukh Khan, Salman Khan and Madhuri Dixit's selfie has fans recalling Hum Tumhare Hai Sanam",
-			img: 'https://filmfare.wwmindia.com/content/2022/may/shahrukhkhan41653712635.jpg',
+			title: 'Govinda Naam Mera',
+			img: '	https://static.toiimg.com/photo/96172501.cms',
 			category: 'Bollywood',
 			description:
-				"Karan Johar's 50th birthday bash was one big star-studded celebration. The evening saw a bevvy of Bollywood celebrities making an appearance and with so many biggies coming together, reunions were inevitable. Now, a selfie of Shah Rukh Khan, Salman Khan and Madhuri Dixit has emerged and fans are obsessed.The picture from the party sees Salman Khan flanked by Madhuri Dixit and Shah Rukh Khan. Joining them were Madhuri's husband Shriram Nene and Shah Rukh Khan's wife Gauri Khan. The Fame Game star took to Instagram to share the priceless photo in a post captioned, “So much to talk about, right? @drneneofficial @iamsrk @beingsalmankhan @gaurikhan. Fans cannot get enough of the picture. One fan commented on the sheer star power and wrote, “All Legends in one frame”. While many were thrilled to get a glimpse of Shah Rukh Khan and Salman Khan together, others recalled that the two stars appeared alongside Madhuri Dixit in Hum Tumhare Hai Sanam. The 2002 film was a romantic drama that revolved around a love triangle. Moreover, the pic also sparked nostalgia for Hum Aapke Hai Koun which saw Madhuri and Salman share screen space in an iconic pairing.Karan Johar’s birthday bash had several memorable moments. While Shah Rukh Khan did not walk the red carpet, videos of him dancing like nobody’s watching on Koi Mil Gaya from Kuch Kuch Hota Hai surfaced later. Meanwhile, Salman Khan who was one of the last guests to arrive reportedly stayed at the party till the morning.",
+				'Govinda ruled the 90’s with his signature comedy! No one could even come close to his timing and the punches. His swag is unmatched. So, when makers try to capture that same zest and energy by using his name in a title, your expectations are bound to rise. However, Shashank Khaitan’s Govinda Naam Mera, starring Vicky Kaushal, has nothing to do with the actor Govinda. It only attempts to pun on his name, perhaps in an effort to replicate his vibe. The plot revolves around Govinda (Vicky Kaushal), who is looking to sell his ancestral house. But the task isn’t easy. Stuck between a dominating wife (Bhumi Pednekar) and his screechy mom (Renuka Shahane), things take a turn when Govinda gets embroiled in a situation that involves a dead body. With a dozen odd supporting characters, the film starts looking like one gag followed by another with no attempt to sound cohesive. For Vicky Kaushal, it is a departure from the serious roles he played in Uri and Sardar Udham Singh. Here, he gets to do a bonafide masala film. He aces in every scene, giving it his all. Be it the comic or the romantic moments, Vicky gives this film his all as Govinda Waghmare. Only if the script and dialogues had more substance would he have had a better character graph than a linear monotonous non-stop slapstick sequence. The star of the film is, however, Bhumi Pednekar, who ditches her classy image and goes all out to play the role of a loud and over-the-top wife, who takes sadistic pleasure in torturing her husband. Bhumi’s scenes with Vicky in the first half are a major highlight. Kiara has a few scenes where she shines, but overall she’s reduced to playing the pretty girl in distress. The second half, especially the climax and the last one hour, are the best parts of the film. There is also a Ranbir Kapoor cameo that momentarily lifts the vibe of the film.',
 		},
 		{
 			id: 5,
-			title: 'Akshay Kumar was all praise for Manushi Chillar’s sharp memory during the promotions of Prithviraj',
-			img: 'https://filmfare.wwmindia.com/content/2022/may/akshaykumarwasallpraises41653652745.jpg',
+			title: 'Freddy(2022)',
+			img: '	https://static.toiimg.com/photo/95835542.cms',
 			category: 'Bollywood',
 			description:
-				'Akshay Kumar and Manushi Chhillar have kick-started promotions for their upcoming movie Prithviraj, which will be released on June 3. In a recent appearance on a comedy reality show, Akshay was all praise for Manushi Chhillar’s sharp memory. Manushi Chhillar also reciprocated by complimenting Akshay Kumar.In the reality show, Akshay Kumar said, If I talk about Manushi, she has such a sharp memory. She used to memorise all the dialogues, hers, mine as well as those of other actors. She could remember the toughest of words. The duo were also joined by the director, Chandraprakash Dwivedi, for the promotion of the movie on the reality show. He spoke in-depth about the upcoming release. The movie also stars Sanjay Dutt, Sonu Sood, Ashutosh Rana, and Sakshi Tanwar in pivotal rolesManushi also said that even though she loves Akshay Kumar’s comedy movies, she strongly feels that Prithviraj is his best movie to date. She said, I am a big fan of sir’s comedy and the few comedy films that sir has done. But, after watching Prithviraj, I can definitely say that Prithviraj is my favourite film of sir.',
+				'He walks like Norman Bates and has a mind of Dexter, Dr Freddy Ginwala (Kartik Aaryan) is not your ordinary dentist. Extremely awkward, an introvert, low on self-confidence, especially with girls, Freddy is a social outcast. Until the day he meets Kainaaz (Alaya F). That’s when everything changes. Director Shashanka Ghosh uses every shade of grey in his cinematic canvas to paint Freddy’s cryptic world. Right from the opening frame where he gets stood up by a prospective date to the climax, Ghosh creates an eerie atmosphere of uncertainty around every character who crosses his path with Freddy. Things take a sinister path when Freddy starts wooing Kainaaz and plotting ways to prove his love for her. As the narrative weaves its web of intrigue, we realise that Freddy has his mind on more than just extracting teeth. Freddy sets out to be a psychological thriller, and it does have a lot going for it early on. The entire onus of making Freddy this dark, unpredictable character lies on the fragile shoulders of its lead actor - Kartik Aaryan. If Kartik fumbles so does Freddy. Everything from his gaze that makes his first date uncomfortable to his walk to the way he tucks in his shirt is calculated like an algorithm to make Freddy this great seducer who wants all your attention. That’s where Ghosh succeeds the most in making Freddy the centre piece of this loosely put together puzzle. The background score to the peripheral characters who play an important part in Freddy’s life all work in sync to take the story forward. Freddy’s flaw is that it doesn’t feel dark enough. There are scenes where you feel like the writers held themselves back from going all out. Perhaps the weight of an A-list Bollywood actor put too much pressure on them during the writing sessions, or maybe they didn’t know where to take the story. The climax is predictable and feels a bit lazy and rushed. Despite the hiccups the film works because of its lead actor who makes a brave choice of turning the tables on his lover boy image and take a career risk in the middle of his reign as the box office champ.',
 		},
 		{
 			id: 6,
-			title: "It's official! Hrithik Roshan introduced Saba Azad as his girlfriend at Karan Johar's bash",
-			img: 'https://filmfare.wwmindia.com/content/2022/may/hrithikroshansabaazad41653633774.jpg',
+			title: 'Mission Majanu',
+			img: 'https://media5.bollywoodhungama.in/wp-content/uploads/2020/12/Mission-Majnu-2.jpg',
 			category: 'Bollywood',
 			description:
-				"Talks of Hrithik Roshan and Saba Azad’s rumoured relationship have been doing the rounds for a while. But now, the two have made it red carpet official by appearing together at Karan Johar's grand birthday bash. Hrithik and Saba arrived at the party on theme in their black outfits and made for a stunning pair. Turns out, after gracing the red carpet, Hrithik also introduced Saba Azad as his girlfriend to fellow attendeesAs per reports on a leading news portal, Hrithik Roshan was by Saba Azad's side the whole evening and went on to introduce her as his girlfriend to guests present at the bash. A source told the portal, Hrithik and Saba “didn’t leave each other’s side and were holding hands throughout the party.he couple (now that we can finally call them that) set the red carpet on fire as they posed for paps. Later, actress Preity Zinta also shared a picture with Hrithik and Saba. Take a look at their unmissable picFor the uninitiated, Hrithik Roshan and Saba Azad have been spending a lot of time together and needless to say, they’ve been the talk of the town. While they are yet to make an announcement to confirm their relationship, it cannot get more obvious than this.Recently, Hrithik and Saba also attended a birthday dinner together with the Roshan family. Hrithik’s father Rakesh Roshan and mother Pinkie were present at the intimate family gathering. Meanwhile, Karan Johar’s bash which took place in Mumbai on May 25 was attended by the most popular Bollywood stars including Aishwarya Rai Bachchan and Abhishek Bachchan, Katrina Kaif and Vicky Kaushal, Anushka Sharma, Ranveer Singh, Ranbir Kapoor and others.",
-		},
-		{
-			id: 54,
-			title: "It's official! Hrithik Roshan introduced Saba Azad as his girlfriend at Karan Johar's bash",
-			img: 'https://filmfare.wwmindia.com/content/2022/may/hrithikroshansabaazad41653633774.jpg',
-			category: 'mix',
-			description:
-				"Talks of Hrithik Roshan and Saba Azad’s rumoured relationship have been doing the rounds for a while. But now, the two have made it red carpet official by appearing together at Karan Johar's grand birthday bash. Hrithik and Saba arrived at the party on theme in their black outfits and made for a stunning pair. Turns out, after gracing the red carpet, Hrithik also introduced Saba Azad as his girlfriend to fellow attendeesAs per reports on a leading news portal, Hrithik Roshan was by Saba Azad's side the whole evening and went on to introduce her as his girlfriend to guests present at the bash. A source told the portal, Hrithik and Saba “didn’t leave each other’s side and were holding hands throughout the party.he couple (now that we can finally call them that) set the red carpet on fire as they posed for paps. Later, actress Preity Zinta also shared a picture with Hrithik and Saba. Take a look at their unmissable picFor the uninitiated, Hrithik Roshan and Saba Azad have been spending a lot of time together and needless to say, they’ve been the talk of the town. While they are yet to make an announcement to confirm their relationship, it cannot get more obvious than this.Recently, Hrithik and Saba also attended a birthday dinner together with the Roshan family. Hrithik’s father Rakesh Roshan and mother Pinkie were present at the intimate family gathering. Meanwhile, Karan Johar’s bash which took place in Mumbai on May 25 was attended by the most popular Bollywood stars including Aishwarya Rai Bachchan and Abhishek Bachchan, Katrina Kaif and Vicky Kaushal, Anushka Sharma, Ranveer Singh, Ranbir Kapoor and others.",
+				'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum doloremque repudiandae ipsa iusto corporis. Aliquam rerum vitae inventore quis! Ducimus cumque aspernatur, iusto exercitationem sint adipisci soluta illum ipsum nam veniam delectus enim labore dicta minima sed magni, deserunt quasi accusamus aperiam earum fugiat ex? Maiores itaque repudiandae iusto! Inventore?Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque qui blanditiis ut itaque dolores cupiditate exercitationem sapiente, assumenda voluptatibus aliquam.\n Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum doloremque repudiandae ipsa iusto corporis. Aliquam rerum vitae inventore quis! Ducimus cumque aspernatur, iusto exercitationem sint adipisci soluta illum ipsum nam veniam delectus enim labore dicta minima sed magni, deserunt quasi accusamus aperiam earum fugiat ex? Maiores itaque repudiandae iusto! Inventore?Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque qui blanditiis ut itaque dolores cupiditate exercitationem sapiente, assumenda voluptatibus aliquam.',
 		},
 		{
 			id: 7,
-			title: 'Inside pictures from Karan Johar’s 50th birthday: Anushka Sharma and Ranbir Kapoor reunite',
-			img: 'https://filmfare.wwmindia.com/content/2022/may/vickykaushal41653570327.jpg',
-			category: 'Bollywood',
+			title: 'Making A Good Hollywood Movie',
+			img: 'https://images.unsplash.com/photo-1581390114939-946f9a890a7f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aG9sbHl3b29kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
+			category: 'Hollywood',
 			description:
-				'Karan Johar’s 50th birthday bash is the talk of B-town. The event was attended by A-listers such as Salman Khan, Aamir Khan, Kareena Kapoor Khan, Saif Ali Khan, Kajol, Rani Mukerji, Shahid Kapoor, Mira Kapoor, Anushka Sharma, Gauri Khan, Hrithik Roshan, Ranveer Singh, Ranbir Kapoor among others.After the red-carpet pictures of celebrities riled up a storm, we are now looking at the inside pictures from the event. These pictures candidly show our favourite stars having the time of their lives. As Katrina Kaif and Vicky Kaushal dish out couple goals, Ranbir Kapoor and Anushka Sharma reunite. ',
+				"What makes a good movie is a well-written, well-shot, well-edited, well-acted, cohesive, and internally consistent story with the ability to elicit emotion, establish atmosphere, and guide a response. The top movies of all time list are particularly divisive, but all lists are meant to provoke discussion. No other creative medium has undergone such a radical transformation during the past 150 years. A great song will never lose its quality. A great melody never gets old, and a hot beat never gets old. In fact, young people today could like Harry Styles over The Beatles. A whole generation has probably grown accustomed to Christopher Nolan's portrayal of Batman since the release of The Dark Knight merely 14 years ago. In this ever-evolving collection, you may find everything from cult favorites to romantic comedies, and horror flicks to crime capers. Ranking the finest movies ever made is essentially impossible. But the list that most closely resembles a definitive ranking is one that is based on viewer's ratings. The list of the finest films ever produced on IMDb may be among the best of its kind in this regard. The list is created using the reviews of top films from millions of spectators. Despite the list being updated frequently, the top films haven't changed much throughout the years. Even if watching the newest movies is entertaining, it could occasionally be simpler to return to the timeless classics that everyone appears to like. The best Hollywood has to offer, international hits, movies from the twenty-first century, and films from decades before may all be found among IMDb's top-rated films. Of course, each moviegoer has a unique opinion of the top 10 movies of all time. Whether fans are rewatching an old favorite or catching up on a well-known film they have missed, this collection is a terrific place to look for the greatest movies of all time.",
 		},
 		{
 			id: 8,
-			title: "Bollywood Alia Bhatt finally reacts to viral video of Ranbir Kapoor cradling a baby; cries 'happy tears'",
-			img: 'https://st1.bollywoodlife.com/wp-content/uploads/2022/05/Alia-Ranbir-baby-video.jpg?impolicy=Medium_Widthonly&w=800',
-			category: 'Bollywood',
+			title: 'Lost City(2022)',
+			img: 'https://wallpapercave.com/dwp1x/wp10941904.jpg',
+			category: 'Hollywood',
 			description:
-				"A video of Ranbir Kapoor cradling a baby had gone viral on the internet. In the video, Ranbir was seen carrying the little one in his arms, kisses on the head and continues to play with the baby. The fan shared the video on Instagram and wrote, Many social media users started tagging Alia Bhatt after watching the video. And the viral video of Ranbir's has finally got Alia's much-needed attention, and it got her happy tears.",
+				"Treasure hunting + adventure + comedy + romance seems like a formula for cinematic success, and, indeed, Paramount Pictures has struck gold here. Giving off Romancing the Stone vibes, The Lost City has a hilarious script that's made even funnier with perfect casting. Bullock is the master of playing a relatably put-upon woman, and here she also gets to be the smartest person in the room and the jungle. It's a kick to see Tatum and co-star Brad Pitt play into their sex-symbol images, laughing along with the audience while simultaneously showing that the 'ideal man' has the same insecurities and vulnerabilities as everyone else. While the top-billed stars are national treasures, the real find in The Lost City is Da'Vine Joy Randolph as Loretta's publisher, Beth. She could have easily turned out as a typical romcom confidante, but Randolph offers a different take, evolving 'the best friend' into a magnificent, three-dimensional, confident woman who is a boss by all definitions, literally going to the ends of the Earth for those she loves. While this isn't a perfect film, it's pretty great, and writer Seth Gordon puts plenty in it to love, including a strong message that it's the hard times that help us appreciate the good times.",
 		},
 		{
 			id: 9,
-			title: 'Bollywood Deepika Padukone looks jaw droppingly stunning in latest photos',
-			img: 'https://www.pinkvilla.com/imageresize/deepika_69.jpg?width=752&format=webp&t=pvorg',
-			category: 'Bollywood',
+			title: '300 Rise of an Empire(2014)',
+			img: 'https://wallpapercave.com/dwp1x/wp10822561.jpg',
+			category: 'Hollywood',
 			description:
-				'Deepika Padukone never fails to impress us with her style. The stunning actress is an epitome of grace and charm. Deepika is the highest paid actress in the country today and has made it to the Top 5 of Forbes List of Richest Indian Celebs. The actor was featured in TIME magazine’s 100 Most Influential People List and is one of the few Indian actors to have attended coveted events abroad. ',
+				'Based on Frank Miller’s latest graphic novel, Xerxes, and told in the breathtaking visual style of the blockbuster 300, this new chapter of the epic saga takes the action to a fresh battlefield—on the sea—as Greek general Themistokles (Sullivan Stapleton) attempts to unite all of Greece by leading the charge that will change the course of the war. 300: Rise of an Empire pits Themistokles against the massive invading Persian forces led by mortal-turned-god Xerxes (Rodrigo Santoro), and Artemesia (Eva Green), vengeful commander of the Persian navy.',
 		},
 		{
 			id: 10,
-			title: 'Bollywood Aishwarya Rai Bachchan, Abhishek Bachchan and daughter Aaradhya return ',
-			img: 'https://www.pinkvilla.com/imageresize/abhishek%20bachchan%20aishwarya%20aaradhya%20%282%29.JPG?width=752&format=webp&t=pvorg',
-			category: 'Bollywood',
+			title: 'Batman(2023)',
+			img: 'https://wallpapercave.com/dwp1x/wp10947950.jpg',
+			category: 'Hollywood',
 			description:
-				'Aishwarya Rai Bachchan, Abhishek Bachchan and daughter Aaradhya returned to Mumbai today after ringing in 2019 abroad. Abhishek and Aishwarya shared photos from their New Year getaway as the family basked in the sun. At the airport, daughter Aaradhya was engaged in a conversation with her parents and looked cute as a button in a pink dress.',
+				"As of 27 Jul 2023, it is unknown who from the Batman movie franchise would appear in the 2023 movie 'The Batman Legend,' and who the director would be. However, Dave Batista and Warner Bros. confirmed that he would reprise his role as Anton 'Bane' Vega in Justice League II, and would have a much larger role than in The Batman Legend.1 'The Batman - Part II' (2025) is still in development, and it remains to be seen if it will be the end of this version of Batman or just the conclusion to a particular arc.2 Executive producer and originator of The Batman film franchise Michael Uslan confirmed on his Instagram that filming for Part II kicks off on Nov. 23. McFarlane Toys revealed the Batman: The Ultimate Movie Collection 6-Pack at Comic-Con 2023, priced at $119.99.0",
 		},
 		{
 			id: 11,
-			title: 'Iron Man',
-			img: 'https://upload.wikimedia.org/wikipedia/en/0/02/Iron_Man_%282008_film%29_poster.jpg',
+			title: 'G.I.Joe Snake Eyes(2021)',
+			img: 'https://wallpapercave.com/dwp1x/wp10947960.jpg',
 			category: 'Hollywood',
 			description:
-				'Iron Man is a 2008 American superhero film based on the Marvel Comics character of the same name. Produced by Marvel Studios and distributed by Paramount Pictures,[N 1] it is the first film in the Marvel Cinematic Universe (MCU). Directed by Jon Favreau from a screenplay by the writing teams of Mark Fergus and Hawk Ostby, and Art Marcum and Matt Holloway, the film stars Robert Downey Jr. as Tony Stark / Iron Man alongside Terrence Howard, Jeff Bridges, Shaun Toub, and Gwyneth Paltrow. In the film, following his escape from captivity by a terrorist group, world famous industrialist and master engineer Tony Stark builds a mechanized suit of armor and becomes the superhero Iron Man.',
-		},
-		{
-			id: 55,
-			title: 'Top Gun Maverick BO: Tom Cruise film collects $51 mn in US, ₹4.75 cr in India ',
-			img: 'https://images.hindustantimes.com/img/2022/05/28/550x309/dcf35a88-dd9e-11ec-8fe2-ac5ac3115257_1653667000472_1653747840857.jpg',
-			category: 'mix',
-			description:
-				"Top Gun Maverick box office day 1 collection: Tom Cruise's film collected $51 million at the US box office on its opening day. In India, it collected ₹4.75 crore. Top Gun came out in 1986, establishing Cruise, then 24, as an action hero. He’s nearly 60 now, promoted to US Navy captain in the sequel, and working hard to recreate the magic from 36 years ago.Director Joseph Kosinski's Top Gun Maverick, which features Tom Cruise, had a contrasting opening at the box office in India and the US. In the US, the film collected $51 million on its opening day. The film is already Tom’s best opening day ever beating Mission Impossible – Fallout's first-day collection. However, the film has not been able to make a mark in India and collected ₹4.75 crore on day one. In Top Gun Maverick, Tom essays the role of Pete 'Maverick' Mitchell, who is grappling with the diminished standing of fighter pilots in a world that now wages war with drones controlled by people miles away on computers. Top Gun Maverick is produced by Jerry Bruckheimer, Tom Cruise, Christopher McQuarrie and David Ellison.As per a Deadline report, Top Gun Maverick at this Friday night hour is on its way to a $51 million opening day (which includes $19.3 million previews). It would not be shocking to wake up on Saturday morning and see that the sequel has edged out Iron Man 2 ($51.2M) to become Paramount’s top opening day ever. Already, the sequel is Tom Cruise’s best opening day ever in US/Canada besting Mission: Impossible – Fallout‘s first day of $22.8M by 124%.",
+				"In his youth, Snake Eyes, along with Storm Shadow, was trained by the Arashikage Clan. A homeless Caucasian child, he entered the clan's home seeking food, only to be caught by a young Storm Shadow, who intended to ' punish' the stranger for stealing. They both fought around the kitchen with Snake showing remarkable skill at such a young age being able to hold his own against the well-trained Storm Shadow. Their fight was eventually stopped by the clan Master, Blind Master, who was impressed with Snake's skill, and despite Storm's protests, allowed the youngster into the clan. While Storm Shadow proceeded to claim Snake to be weak, the Master cheerfully corrected him, saying: 'He didn't fight like a weakling,' then asked the initiate what he wanted to be known as, thus the origin of his current moniker. Snake trained with the clan, with Storm Shadow as his sparring partner. Storm constantly beat him brutally in their training, much to the Master's disapproval. Eventually, Snake was able to beat Storm in a training session; something that pleased him and the Master profoundly. This was not to last though. It appeared that Storm Shadow (angered by the Master favoring an outsider over a true Clan member) attacked the old man and ran him through the back with his sword before fleeing the temple. However, it was later revealed that it was in fact Zartan who killed the Master. Storm, however, was blamed for the death, leading the Clan to resent him. The death of Blind Master had a profound effect on Snake Eyes, who considered the Blind Master the closest thing he had to a father. He took a vow of silence, never again speaking to anyone, either friend or foe. He communicates with his fellow G.I. Joe members using hand gestures, the closest he ever comes to using his voice being heavy breathing following an exhausting battle.",
 		},
 		{
 			id: 12,
-			title: 'The Incredible Hulk',
-			img: 'https://upload.wikimedia.org/wikipedia/en/f/f0/The_Incredible_Hulk_%28film%29_poster.jpg',
+			title: 'Black Panther(2018)',
+			img: 'https://wallpapercave.com/dwp1x/wp10822644.jpg',
 			category: 'Hollywood',
 			description:
-				'The Incredible Hulk is a 2008 American superhero film based on the Marvel Comics character the Hulk. Produced by Marvel Studios and distributed by Universal Pictures, it is the second film in the Marvel Cinematic Universe (MCU). It was directed by Louis Leterrier from a screenplay by Zak Penn, and stars Edward Norton as Bruce Banner alongside Liv Tyler, Tim Roth, Tim Blake Nelson, Ty Burrell, and William Hurt. In the film, Bruce Banner becomes the Hulk as an unwitting pawn in a military scheme to reinvigorate the (Super-Soldier) program through gamma radiation. Banner goes on the run from the military while attempting to cure himself of the Hulk.',
+				"'Black Panther' is a 2018 action-adventure sci-fi film directed by Ryan Coogler, starring Chadwick Boseman, Michael B. Jordan, Lupita Nyong'o, and Danai Gurira. The movie follows T'Challa, the heir to the advanced kingdom of Wakanda, as he leads his people into a new future and confronts a challenger from his country's past. The villain Ulysses Klaue, played by Andy Serkis, does not play a significant role until close to an hour into the film. 'Black Panther: Wakanda Forever' is the second installment in the 'Black Panther' franchise, released on Disney+ on March 12, 2023. The film features the king of Atlantis, now Talokan, making his MCU debut. The film also features Namor, the king of Atlantis, making his MCU debut. 'Black Panther ' is set to release on July 8, 2022, and is being written and directed by Ryan Coogler, honoring Chadwick Boseman's legacy and portrayal of T'Challa",
 		},
 		{
 			id: 13,
-			title: 'Thor',
-			img: 'https://upload.wikimedia.org/wikipedia/en/9/95/Thor_%28film%29_poster.jpg',
-			category: 'Hollywood',
+			title: "Microsoft's AI Dominance",
+			img: 'https://static.toiimg.com/thumb/resizemode-4,msid-97753804,width-800,height-450,imgv-75/97753804.jpg',
+			category: 'Technology',
 			description:
-				'Thor is a 2011 American superhero film based on the Marvel Comics character of the same name. Produced by Marvel Studios and distributed by Paramount Pictures,[N 1] it is the fourth film in the Marvel Cinematic Universe (MCU). It was directed by Kenneth Branagh, written by the writing team of Ashley Edward Miller and Zack Stentz along with Don Payne, and stars Chris Hemsworth as the title character alongside Natalie Portman, Tom Hiddleston, Stellan Skarsgård, Colm Feore, Ray Stevenson, Idris Elba, Kat Dennings, Rene Russo, and Anthony Hopkins. After reigniting a dormant war, Thor is banished from Asgard to Earth, stripped of his powers and his hammer Mjölnir. As his brother Loki (Hiddleston) plots to take the Asgardian throne, Thor must prove himself worthy.',
-		},
-		{
-			id: 62,
-			title: "Amber Heard says she has received threats 'every single day' during trial: 'People want to put my baby in a microwave' ",
-			img: 'https://images.hindustantimes.com/img/2022/05/27/550x309/amber_heard_1652846124301_1653656835956.JPG',
-			category: 'footer2',
-			description:
-				"In a video from the trial shared by Law & Crime Network on their YouTube channel, Amber told the jury, I am harassed, humiliated, threatened, every single day. Even just walking into this courtroom. Sitting here in front of the world, having the worst parts of my life, things that I have lived through, used to humiliate me. People want to kill me and they tell me so every day. People want to put my baby in the microwave, and they tell me that. She also said, I live my life with these sets of rules I've to follow, my friends have to follow for me not to have a panic attack or a triggering event or I relive the trauma, even from training to do. In my movie, for instance, for training for Aquaman, a combat scene and a trigger happen. I have a meltdown and have to deal with that, the crew I work with have to deal with that, because of the damage I walk around with every single day. I am not sitting in this courtroom snickering. I’m not sitting in this courtroom laughing, smiling, or making snide jokes. I’m not. This is horrible. A jury is scheduled to hear the closing arguments on Friday in Johnny's lawsuit against Amber. Each side will have two hours to summarise their case in a trial that has stretched on for six weeks. Johnny Depp is suing Amber for $50 million in Virginia's Fairfax County Circuit Court over a December 2018 op-ed she wrote in The Washington Post describing herself as “a public figure representing domestic abuse”. His lawyers say he was defamed by the article even though it never mentioned his name.",
+				"In March this year, Microsoft introduced the Microsoft 365 Copilot to help its commercial customers with a variety of tasks. In a blog post, Microsoft had then explained how Copilot will be users' 'copilot for work' and will help users carry out their day-to-day tasks at work with ease. Copilot is integrated into Microsoft 365 in two ways. It works alongside you, embedded in the Microsoft 365 apps you use every day — Word, Excel, PowerPoint, Outlook, Teams and more — to unleash creativity, unlock productivity and uplevel skills, the company had said back then.Copilot was made available to a few companies via an Early Access Program and companies like Chevron, Goodyear, General Motors and Dow got a first-hand experience of the company's AI-powered subscription service. And now, Microsoft has announced the pricing for Microsoft 365 Copilot. Bing Chat Enterprise unlocks generative AI for work. And Microsoft 365 Copilot brings a whole new way of working – reasoning over all your business data in the context of your enterprise, including the ability to ask questions and get answers from the web. Microsoft 365 Copilot will be available for commercial customers for USD30 per user per month for Microsoft 365 E3, E5, Business Standard and Business Premium customers when broadly available, the company wrote in a blog post. Microsoft 365 Copilot can help corporate workers with their day-to-day work. The blog post explains that from keeping a track of meetings and emails to creating a SWOT analysis form internal files and data from the web, Copilot will be at the users' command.",
 		},
 		{
 			id: 14,
-			title: 'Captain America',
-			img: 'https://upload.wikimedia.org/wikipedia/en/3/37/Captain_America_The_First_Avenger_poster.jpg',
-			category: 'Hollywood',
+			title: 'Samsung Galaxy S23 Ultra',
+			img: 'https://static.digit.in/default/tr:w-2048/14649samsungs23-ultra1-2-20231280x720-7e165d4c68.jpeg',
+			category: 'Technology',
 			description:
-				'Captain America: The First Avenger is a 2011 American superhero film based on the Marvel Comics character Captain America. Produced by Marvel Studios and distributed by Paramount Pictures,[N 1] it is the fifth film in the Marvel Cinematic Universe (MCU). The film was directed by Joe Johnston, written by Christopher Markus and Stephen McFeely, and stars Chris Evans as Steve Rogers / Captain America alongside Tommy Lee Jones, Hugo Weaving, Hayley Atwell, Sebastian Stan, Dominic Cooper, Neal McDonough, Derek Luke, and Stanley Tucci. During World War II, Steve Rogers, a frail man, is transformed into the super-soldier Captain America and must stop the Red Skull (Weaving) from using the Tesseract as an energy source for world domination.',
+				"It has been more than 4 years since I used an Android phone as my primary device. But when Samsung launched the Galaxy S23 Ultra earlier this month, I was sure to turn it into my daily driver. I have been using the Galaxy S23 Ultra as my primary phone for nearly 10 days and absolutely love the experience it delivers. But, I should accept that being an iPhone user for years, I did face some issues with the user interface initially, but eventually got used to OneUI. Using the phone as my primary device also means that I used the phone to watch lots of content including Instagram Reels and YouTube Videos, multitask, click photos and create Reels, make calls, send emails and WhatsApp messages, and a lot more. Now, at absolutely no point in time, did the phone lag. Also, be it the camera, the performance, or the battery life, the Samsung Galaxy S23 Ultra ticks all the right boxes. But, the question is - is it worth the price? We will find the answer to that question in this review. before getting into the review, let's take a look at the price. In India, the Samsung Galaxy S23 Ultra comes in three variants – 12GB RAM plus 256GB storage, 12GB RAM plus 512GB storage, and 1TB storage plus 12GB RAM. The price starts at Rs 1,24,999 and goes up to Rs 1,54,999.",
 		},
 		{
 			id: 15,
-			title: 'The Avengers',
-			img: 'https://upload.wikimedia.org/wikipedia/en/8/8a/The_Avengers_%282012_film%29_poster.jpg',
-			category: 'Hollywood',
+			title: 'Best Desktops to buy',
+			img: 'https://static.digit.in/default/tr:w-2048/dell-cover-87c7394e42.jpeg',
+			category: 'Technology',
 			description:
-				"Marvel's The Avengers[4] (classified under the name Marvel Avengers Assemble in the United Kingdom and Ireland),[1][5] or simply The Avengers, is a 2012 American superhero film based on the Marvel Comics superhero team of the same name. Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures,[N 1] it is the sixth film in the Marvel Cinematic Universe (MCU). Written and directed by Joss Whedon, the film features an ensemble cast including Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth, Scarlett Johansson, and Jeremy Renner as the Avengers, alongside Tom Hiddleston, Clark Gregg, Cobie Smulders, Stellan Skarsgård, and Samuel L. Jackson. In the film, Nick Fury and the spy agency S.H.I.E.L.D. recruit Tony Stark, Steve Rogers, Bruce Banner, Thor, Natasha Romanoff, and Clint Barton to form a team capable of stopping Thor's brother Loki from subjugating Earth.",
+				"Home›Tech›News»The Best Desktop Computers. The best desktop computers SABRINA CASTROAPR 22, 2022, 01:05 IST. The best desktop computers The best desktop computers offer more power than your average laptop, and in most cases far more storage space as well as better ergonomics. Our current pick for the best overall desktop computer is the Dell XPS Special Edition for its style and myriad internal hardware options for users of all needs. Computer components have gotten smaller, more compact, and more powerful through recent years. Nowadays, you can find people using laptops as their main computer rather than desktops. This doesn't necessarily mean there isn't an ideal place for one of the best desktop computers in your home or office. Laptops just happen to be more capable to handle a multitude of tasks that people want completed in a quick time frame and in different locations. However, many desktop computers offer more power than a simple laptop could. For example, gamers need to be able to run high-performance games without running into any issues, namely through a dedicated graphics card. Likewise, video and audio editors need a powerful processor to handle high-resolution files as well as the specific programs (Adobe Premiere, Final Cut, etc.) needed to get their work done. Even the average joe may want a desktop computer too, because they can easily be customized to their specific needs and allow for wider connectivity with more ports.",
 		},
 		{
 			id: 16,
-			title: 'Guardians of the Galaxy',
-			img: 'https://upload.wikimedia.org/wikipedia/en/3/33/Guardians_of_the_Galaxy_%28film%29_poster.jpg',
-			category: 'Hollywood',
+			title: 'Battle for semiconductors',
+			img: 'https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dGVjaG5vbG9neXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60',
+			category: 'Technology',
 			description:
-				'Guardians of the Galaxy (retroactively referred to as Guardians of the Galaxy Vol. 1)[4][5] is a 2014 American superhero film based on the Marvel Comics superhero team of the same name. Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures, it is the 10th film in the Marvel Cinematic Universe (MCU). Directed by James Gunn, who wrote the screenplay with Nicole Perlman, the film features an ensemble cast including Chris Pratt, Zoe Saldaña, Dave Bautista, Vin Diesel, and Bradley Cooper as the titular Guardians, along with Lee Pace, Michael Rooker, Karen Gillan, Djimon Hounsou, John C. Reilly, Glenn Close, and Benicio del Toro. In the film, Peter Quill and a group of extraterrestrial criminals go on the run after stealing a powerful artifact.',
+				"China and the US are locked in a fierce chip battle. And now China has put curbs on the exports of germanium and gallium, two niche metals used in the manufacturing of semiconductors and electronics. But experts fear that export restrictions on these metals may not have a significant impact, as substitutes are available. So, while the consequences of China's export restrictions may not be severe, does it serve as a warning to the US and its allies? And with Foxconn withdrawing from its planned joint venture with India's Vedanta to set up semiconductor and display production plants in Gujarat, do we really see India bucking this trend and being an alternative to China?",
 		},
 		{
 			id: 17,
-			title: 'Avengers: Age of Ultron',
-			img: 'https://upload.wikimedia.org/wikipedia/en/f/ff/Avengers_Age_of_Ultron_poster.jpg',
-			category: 'Hollywood',
+			title: "Apple's new Macbook",
+			img: 'https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8dGVjaG5vbG9neXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60',
+			category: 'Technology',
 			description:
-				'Avengers: Age of Ultron is a 2015 American superhero film based on the Marvel Comics superhero team the Avengers. Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures, it is the sequel to The Avengers (2012) and the 11th film in the Marvel Cinematic Universe (MCU). Written and directed by Joss Whedon, the film features an ensemble cast including Robert Downey Jr., Chris Hemsworth, Mark Ruffalo, Chris Evans, Scarlett Johansson, Jeremy Renner, Don Cheadle, Aaron Taylor-Johnson, Elizabeth Olsen, Paul Bettany, Cobie Smulders, Anthony Mackie, Hayley Atwell, Idris Elba, Stellan Skarsgård, James Spader, and Samuel L. Jackson. In the film, the Avengers fight Ultron, an artificial intelligence with the goal of causing human extinction.',
+				"Apple will likely host its latest iPhone 15 series event in September, but is also said to hold another event after that. Apple already took wraps off the 15-inch MacBook Air model, a Mac Studio, and Mac Pro in June, with its M2 chips. A fresh report by Bloomberg's Mark Gurman reveals that the tech company is gearing up to announce new M3-powered Macs in October. Here is all we know so far. Apple is tipped to launch three new devices with an M3 processor. These could be a iMac, a 13-inch MacBook Air, and a 13-inch MacBook Pro. These are expected to offer faster performance compared to last year's models. But, there is no confirmation from Apple's side, and for obvious reasons, because the event is too far. Users are still advised to take the details with a pinch of salt. “Now that Apple has gotten the 15-inch MacBook Air and new M2 Ultra-based Macs out the door, the October launch could feature the first Macs with M3 chips,” he said in his newsletter. A report citing insights from TF Securities analyst Ming-Chi Kuo suggests that Apple has plans to adopt the advanced 2nd-generation TSMC 3nm process for its latest M3 and A17 Bionic chipsets. These powerful chips are anticipated to be utilized in the upcoming Mac computers and iPhone 15 Pro models, scheduled for release in 2023. Additionally, it is being said that Apple will likely commence production for the M3 Pro or M3 Max processors in the first half of 2024.",
 		},
 		{
 			id: 18,
-			title: 'Ant-Man',
-			img: 'https://upload.wikimedia.org/wikipedia/en/1/12/Ant-Man_%28film%29_poster.jpg',
-			category: 'Hollywood',
+			title: 'VR Gaming',
+			img: 'https://images.unsplash.com/photo-1535223289827-42f1e9919769?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHRlY2hub2xvZ3l8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60',
+			category: 'Technology',
 			description:
-				"Ant-Man is a 2015 American superhero film based on the Marvel Comics characters of the same name: Scott Lang and Hank Pym. Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures, it is the 12th film in the Marvel Cinematic Universe (MCU). The film was directed by Peyton Reed from a screenplay by the writing teams of Edgar Wright and Joe Cornish, and Adam McKay and Paul Rudd. It stars Rudd as Scott Lang / Ant-Man alongside Evangeline Lilly, Corey Stoll, Bobby Cannavale, Michael Peña, Tip T.I. Harris, Anthony Mackie, Wood Harris, Judy Greer, David Dastmalchian, and Michael Douglas as Hank Pym. In the film, Lang must help defend Pym's Ant-Man shrinking technology and plot a heist with worldwide ramifications.",
+				"Meta Platforms CEO Mark Zuckerberg on Thursday revealed the company's next generation mixed reality headset, the Quest 3, as the company braces for Apple to potentially reshape a nascent market that Meta has dominated so far. Priced starting at $499, the device will be 40% thinner than the company's previous headset and feature color mixed reality, which combines augmented and virtual reality (AR/VR) elements, Zuckerberg said in an Instagram post ahead of Meta's annual gaming conference. Meta also said it would lower the prices of its existing Quest 2 headsets, while adding performance upgrades to those devices aimed at delivering a smoother user experience. The Quest 3 will have a new Qualcomm chipset with twice the graphics performance as the Quest 2, Zuckerberg said. He said the device would launch in the autumn and promised more details at the company's annual AR/VR conference on Sept. 27. Zuckerberg's announcement came less than a week before tech rival Apple was expected to unveil its first mixed reality device, a high-end product with a price point around $3,000, according to a Bloomberg report. Meta's Quest 2 and Quest Pro devices comprised nearly 80% of the 8.8 million virtual reality headsets sold in 2022, according to an estimate by market research firm IDC. Far behind in second place at 10% market share was the Pico device by Chinese-owned ByteDance, which also owns social media competitor TikTok. Still, despite its dominance, Meta has struggled to sell its vision of an immersive 'metaverse' of interconnected virtual worlds and expand the market for its devices beyond the niche of the gaming community. The company classified eight of the 10 most popular apps on its Quest store as being in the gaming category, according to a Reuters count. After a burst of interest during the pandemic, headset sales tumbled in the first quarter of this year, with the overall AR/VR headset market declining 54.4% year over year.",
 		},
 		{
 			id: 19,
-			title: 'Doctor Strange',
-			img: 'https://upload.wikimedia.org/wikipedia/en/a/a1/Doctor_Strange_%282016_film%29_poster.jpg',
-			category: 'Hollywood',
+			title: 'Continental Food',
+			img: 'https://wallpapercave.com/wp/wp11979548.jpg',
+			category: 'Food',
 			description:
-				'Doctor Strange is a 2016 American superhero film based on the Marvel Comics character of the same name. Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures, it is the 14th film in the Marvel Cinematic Universe (MCU). The film was directed by Scott Derrickson from a screenplay he wrote with Jon Spaihts and C. Robert Cargill, and stars Benedict Cumberbatch as neurosurgeon Stephen Strange along with Chiwetel Ejiofor, Rachel McAdams, Benedict Wong, Michael Stuhlbarg, Benjamin Bratt, Scott Adkins, Mads Mikkelsen, and Tilda Swinton. In the film, Strange learns the mystic arts after a career-ending car crash.',
+				'Every cuisine has its influence on its region and culture. Continental cuisine is no different. Read to know everything about continental cuisine and its delicacies. Different cuisine has its own story, flavour and taste. This peculiar flavour comes from the local produce of the region and the recipes that have passed from generation to generation. Cuisines like Chinese, Japanese, Indian have their own unique taste. Similarly, continental food is unique due to its region, tradition and culture. Often continental and oriental food is considered to be the same. The major difference between these two cuisines is the region they are prepared in. Continental food is prepared in the continent of Europe. It essentially contains Mediterranean and French cuisine. Continental food includes the cuisines of European countries like Spain, France, Italy and more. This cuisine’s staple ingredients are olive oil, wine, garlic and various herbs and spices to season and add flavour to the dishes. Whereas, oriental cuisine belongs to Southeast Asian countries like China, Thailand, Korea and Japan. Another difference between continental and oriental cuisine is that continental cuisine uses fewer vegetables than oriental cuisine. Even though today both the cuisines use baby corns, sun-dried tomatoes and lotus roots in their dishes. These ingredients were never used in Continental cuisine but as the recipes evolve and new dishes get developed the chefs use them without any hesitation. The primary cooking techniques of continental cuisine are frying, roasting and baking. Whereas, in oriental cuisine, it is stir-frying, boiling and quick frying. ',
 		},
 		{
 			id: 20,
-			title: 'Black Panther',
-			img: 'https://upload.wikimedia.org/wikipedia/en/d/d6/Black_Panther_%28film%29_poster.jpg',
-			category: 'Hollywood',
+			title: 'Fresh Cakes',
+			img: 'https://wallpapercave.com/wp/wp11979569.jpg',
+			category: 'Food',
 			description:
-				"Black Panther is a 2018 American superhero film based on the Marvel Comics character of the same name. Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures, it is the 18th film in the Marvel Cinematic Universe (MCU). The film was directed by Ryan Coogler, who co-wrote the screenplay with Joe Robert Cole, and it stars Chadwick Boseman as T'Challa / Black Panther alongside Michael B. Jordan, Lupita Nyong'o, Danai Gurira, Martin Freeman, Daniel Kaluuya, Letitia Wright, Winston Duke, Angela Bassett, Forest Whitaker, and Andy Serkis. In Black Panther, T'Challa is crowned king of Wakanda following his father's death, but he is challenged by Killmonger (Jordan), who plans to abandon the country's isolationist policies and begin a global revolution.",
+				'This Fresh Strawberry Cake recipe starts with a rich, moist vanilla cake that is divided into three layers, and slathered with the most light and fluffy whipped cream and cream cheese frosting, and it’s overflowing with fresh strawberries. It’s a light yet filling treat that’s perfect for summer. It’s the best Strawberry Cake you’ve ever had!. The vanilla cake is dense, almost like a pound cake but fluffier, which is of course perfect for this Strawberry Shortcake type dessert. In the original recipe I found, there were instructions for making a two layer cake, but if this homemade strawberry cake was going to be fancy enough to satisfy my boy, it had to have three layers. I increased the recipe and made a couple of adjustments, which I’ll share in the recipe below. Prep. Always, always preheat your oven for even cooking. Start by preheating your oven to 325 degrees F. Grease and flour 3, 9-inch round baking pans. Combine all of the ingredients as described in the recipe, dry ingredients in one bowl and wet in another. I use a stand mixer with the paddle attachment. Make sure to carefully follow the measurements. Pour. Divide the batter into the three pans. Having a kitchen scale would come in handy here, but you can also just eyeball it. Tap the pans on the counter a few times to release air bubbles. This will result in a flatter top for your cake layers. Slide the pans into the oven and bake for about 35 minutes. The tops should be golden and should spring back when lightly touched. A toothpick inserted into the center of the cake should come out clean with a few moist crumbs. Cool the cake layers in the pans for 10-15 minutes, then transfer to a wire rack to cool completely before frosting.',
 		},
 		{
 			id: 21,
-			title: '5G',
-			img: 'https://upload.wikimedia.org/wikipedia/en/thumb/4/43/3GPP_5G_logo.png/330px-3GPP_5G_logo.png',
-			category: 'Technology',
+			title: 'Chinese Recipes',
+			img: 'https://wallpapercave.com/dwp1x/wp9443719.jpg',
+			category: 'Food',
 			description:
-				'In telecommunications, 5G is the fifth-generation technology standard for broadband cellular networks, which cellular phone companies began deploying worldwide in 2019, and is the planned successor to the 4G networks which provide connectivity to most current cellphones. 5G networks are predicted to have more than 1.7 billion subscribers and account for 25% of the worldwide mobile technology market by 2025, according to the GSM Association and Statista.',
-		},
-		{
-			id: 56,
-			title: 'Why I fell in love with Microsoft’s Surface Laptop Studio despite its shortcomings ',
-			img: 'https://images.indianexpress.com/2022/05/K1.jpg',
-			category: 'mix',
-			description:
-				'As I was waiting for someone at a Delhi hotel recently, I saw a gentleman coming my way. He sat next to me and curiously asked about the laptop I was using. “It’s a Surface Laptop Studio,” I replied. “Does Microsoft make its own laptops?” He admitted he wasn’t aware of the Surface brand but told me he liked the form factor of the Surface Laptop Studio. “It’s different from my MacBook Pro,” said the man who introduced himself as the owner of an architectural firm. This conversation just reinforced my belief that there will be takers for Microsoft’s experimental Surface Laptop Studio, which blends certain elements of the desktop Surface Studio and the premium 2-in-1 Surface Book. It’s a mobile workstation that’s also a sketching slate and a portable home theater. I have been using the Surface Laptop Studio for a few days, and I am in love with this device even though it is not perfect. Here is my review.',
-		},
-		{
-			id: 52,
-			title: 'Why I fell in love with Microsoft’s Surface Laptop Studio despite its shortcomings ',
-			img: 'https://images.indianexpress.com/2022/05/K1.jpg',
-			category: 'technology',
-			description:
-				'As I was waiting for someone at a Delhi hotel recently, I saw a gentleman coming my way. He sat next to me and curiously asked about the laptop I was using. “It’s a Surface Laptop Studio,” I replied. “Does Microsoft make its own laptops?” He admitted he wasn’t aware of the Surface brand but told me he liked the form factor of the Surface Laptop Studio. “It’s different from my MacBook Pro,” said the man who introduced himself as the owner of an architectural firm. This conversation just reinforced my belief that there will be takers for Microsoft’s experimental Surface Laptop Studio, which blends certain elements of the desktop Surface Studio and the premium 2-in-1 Surface Book. It’s a mobile workstation that’s also a sketching slate and a portable home theater. I have been using the Surface Laptop Studio for a few days, and I am in love with this device even though it is not perfect. Here is my review.',
+				'CHINESE SESAME NOODLES (麻酱面) Check out this classic version of sesame noodles done in 10 minutes. Learn how to make the perfectly silky and tasty sauce, along with tips on noodle choices and ingredient substitutions. Sesame noodles, known as Ma Jiang Mian/麻酱面 in Chinese, are popular in many regions of China. They are often served at street stalls or neighborhood restaurants as breakfast or lunch. Over the decades, they have made their way to overseas restaurants and takeout, becoming a popular dish with a few local twists in taste. Although regional sesame noodles differ in taste, they all share a few features: round wheat noodles generously coated with a silky, rich sesame paste-based sauce, and accompanied by julienned crispy vegetables and/or other savory toppings.',
 		},
 		{
 			id: 22,
-			title: ' electric car, battery electric car',
-			img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/2018_Nissan_Leaf_2.Zero_Front.jpg/338px-2018_Nissan_Leaf_2.Zero_Front.jpg',
-			category: 'Technology',
+			title: 'Food Testing',
+			img: 'https://wallpapercave.com/dwp1x/wp11919243.jpg',
+			category: 'Food',
 			description:
-				'An electric car, battery electric car, or all-electric car is an automobile that is propelled by one or more electric motors, using only energy stored in batteries. Compared to internal combustion engine (ICE) vehicles, electric cars are quieter, have no exhaust emissions, and lower emissions overall.[1] In the United States and the European Union, as of 2020, the total cost of ownership of recent electric vehicles is cheaper than that of equivalent ICE cars, due to lower fueling and maintenance costs.[2][3] Charging an electric car can be done at a variety of charging stations; these charging stations can be installed in both houses and public areas.',
-		},
-		{
-			id: 63,
-			title: 'A face search engine anyone can use is alarmingly accurate ',
-			img: 'https://images.indianexpress.com/2022/05/Facial-search-engine-featured.jpg',
-			category: 'footer3',
-			description:
-				'For $29.99 a month, a website called PimEyes offers a potentially dangerous superpower from the world of science fiction: the ability to search for a face, finding obscure photos that would otherwise have been as safe as the proverbial needle in the vast digital haystack of the internet.A search takes mere seconds. You upload a photo of a face, check a box agreeing to the terms of service and then get a grid of photos of faces deemed similar, with links to where they appear on the internet. The New York Times used PimEyes on the faces of a dozen Times journalists, with their consent, to test its powers.PimEyes found photos of every person, some that the journalists had never seen before, even when they were wearing sunglasses or a mask, or their face was turned away from the camera, in the image used to conduct the search. PimEyes found one reporter dancing at an art museum event a decade ago, and crying after being proposed to, a photo that she didn’t particularly like but that the photographer had decided to use to advertise his business on Yelp. A tech reporter’s younger self was spotted in an awkward crush of fans at the Coachella music festival in 2011. A foreign correspondent appeared in countless wedding photos, evidently the life of every party, and in the blurry background of a photo taken of someone else at a Greek airport in 2019. A journalist’s past life in a rock band was unearthed, as was another’s preferred summer camp getaway.',
-		},
-		{
-			id: 22,
-			title: 'Artificial intelligence in healthcare',
-			img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/X-ray_of_hand%2C_where_bone_age_is_automatically_found_by_BoneXpert_software.jpg/330px-X-ray_of_hand%2C_where_bone_age_is_automatically_found_by_BoneXpert_software.jpg',
-			category: 'Technology',
-			description:
-				'Artificial intelligence in healthcare is an overarching term used to describe the use of machine-learning algorithms and software, or artificial intelligence (AI), to mimic human cognition in the analysis, presentation, and comprehension of complex medical and health care data. Specifically, AI is the ability of computer algorithms to approximate conclusions based solely on input data.The primary aim of health-related AI applications is to analyze relationships between clinical techniques and patient outcomes.[1] AI programs are applied to practices such as diagnostics, treatment protocol development, drug development, personalized medicine, and patient monitoring and care. What differentiates AI technology from traditional technologies in healthcare is the ability to gather data, process it, and produce a well-defined output to the end-user. AI does this through machine learning algorithms and deep learning. These processes can recognize patterns in behavior and create their own logic. To gain useful insights and predictions, machine learning models must be trained using extensive amounts of input data. AI algorithms behave differently from humans in two ways: (1) algorithms are literal: once a goal is set, the algorithm learns exclusively from the input data and can only understand what it has been programmed to do, (2) and some deep learning algorithms are black boxes; algorithms can predict with extreme precision, but offer little to no comprehensible explanation to the logic behind its decisions aside from the data and type of algorithm used',
+				'Most medical experts agree that at-home food sensitivity tests are not worth your money. Instead, consider taking an at-home food allergy test or meeting with a doctor or registered dietitian to identify the cause of your unwanted symptoms. Though many types of at-home tests claim to help identify food sensitivities, most experts agree that these tests aren’t reliable and should not be recommended. In this article, we discuss what food sensitivities are, why at-home testing kits are not worth your money, and what to do instead if you suspect you have a food sensitivity. We’ll also discuss signs that may indicate a food allergy rather than a sensitivity and provide options for at-home food allergy testing.',
 		},
 		{
 			id: 23,
-			title: 'Robotic process automation (RPA)',
-			img: 'https://upload.wikimedia.org/wikipedia/commons/6/6d/Industrial_robots-transparent.gif',
-			category: 'Technology',
+			title: 'Fluffy Pancakes',
+			img: 'https://wallpapercave.com/dwp1x/wp11979582.jpg',
+			category: 'Food',
 			description:
-				"Robotic process automation (RPA) is a form of business process automation technology based on metaphorical software robots (bots) or on artificial intelligence (AI)/digital workers.[1] It is sometimes referred to as software robotics (not to be confused with robot software).In traditional workflow automation tools, a software developer produces a list of actions to automate a task and interface to the back end system using internal application programming interfaces (APIs) or dedicated scripting language. In contrast, RPA systems develop the action list by watching the user perform that task in the application's graphical user interface (GUI), and then perform the automation by repeating those tasks directly in the GUI. This can lower the barrier to the use of automation in products that might not otherwise feature APIs for this purpose.",
+				'Every single Sunday begins with pancakes… and ends with leftover pancakes from the morning. These are everything you want in a pancake. They’re soft and so fluffy… each mouthful melts in your mouth… you’ll be reaching for more than one. Stack. Possibly. It all starts with the batter. Too thick and they will be gluggy and undercooked on the inside. Too runny, and the pancakes will spread out and won’t fluff up. I like to test the batter with my spoon or ladle, lifting it gently above the rim of the bowl. It has to be thick BUT able to run slowly and nicely off of the spoon. A couple of lumps is okay, but I do like to smooth out my batter as much as I can gently with a wire whisk. Preheat your good quality, non stick pan or griddle on medium heat first. Once it’s hot, lower the heat down to low-medium heat. Wait about two minutes. This part is crucial and so worth it. Lightly grease the pan with a small amount of butter (yes, even on non stick pans), and wipe away any excess butter with a sheet of paper towel. Use a 1/4 cup measuring cup to pour your batter so you get perfect, evenly sized pancakes. Start pouring from the middle, then continue pouring slowly in a circular motion so that the batter spreads into perfect round shapes. Allow the pancakes to cook properly! Don’t rush them on high heat, or flip them too early. Let that under-side cook to a beautiful golden brown colour, and when bubbles start forming on top and around the surface (batter side), they are ready to flip. How to get that flip perfected without creating lopsided pancakes? Grab a good, plastic spatula and slide it underneath the pancake. Use your WRIST to gently flip them instead of using your whole arm. You’ll know what I mean when you’re in front of your pan ready to flip. THIS makes a HUGE difference.',
 		},
 		{
 			id: 24,
-			title: 'Edge computing ',
-			img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Edge_computing_infrastructure.png/330px-Edge_computing_infrastructure.png',
-			category: 'Technology',
+			title: 'Chcolate Cusines',
+			img: 'https://wallpapercave.com/wp/wp11710743.jpg',
+			category: 'Food',
 			description:
-				'Edge computing is a distributed computing paradigm that brings computation and data storage closer to the sources of data. This is expected to improve response times and save bandwidth.[1] It is an architecture rather than a specific technology.[2] It is a topology- and location-sensitive form of distributed computing.The origins of edge computing lie in content distributed networks that were created in the late 1990s to serve web and video content from edge servers that were deployed close to users.[3] In the early 2000s, these networks evolved to host applications and application components at the edge servers,[4] resulting in the first commercial edge computing services[5] that hosted applications such as dealer locators, shopping carts, real-time data aggregators, and ad insertion engines.',
+				"In theGrio’s digital series “A Taste of Chocolate,” host Shernay Williams takes viewers on a virtual road trip to visit some of the best Black-owned food businesses in the U.S. In our first season, we sampled food in the nation’s capital, Washington, D.C., historically known as “the Chocolate City.” This season, we’re exploring Los Angeles to introduce you to four popular restaurants you should know. Each episode profiles a Black business owner’s entrepreneurial journey and takes viewers into the kitchen as we taste their signature dishes. A Taste of Chocolate, we go inside Rosalind’s to learn how Gebre-Mariam’s team brings authentic Ethiopian food to Los Angeles, how he inspired the creation of Little Ethiopia, and the proper way to eat from the eatery’s famous 'Emperor' plate, which includes samples of 12 classic Ethiopian dishes.",
 		},
 		{
 			id: 25,
-			title: '3D printing or additive manufacturing ',
-			img: 'https://upload.wikimedia.org/wikipedia/commons/e/ed/Robot_3D_print_timelapse_on_RepRapPro_Fisher.gif',
-			category: 'Technology',
+			title: 'Fitness & Travel',
+			img: 'https://wallpapercave.com/dwp1x/wp10585589.jpg',
+			category: 'Travel',
 			description:
-				'3D printing or additive manufacturing is the construction of a three-dimensional object from a CAD model or a digital 3D model.[1] It can be done in a variety of processes in which material is deposited, joined or solidified under computer control,[2] with material being added together (such as plastics, liquids or powder grains being fused), typically layer by layer.In the 1980s, 3D printing techniques were considered suitable only for the production of functional or aesthetic prototypes, and a more appropriate term for it at the time was rapid prototyping.[3] As of 2019, the precision, repeatability, and material range of 3D printing have increased to the point that some 3D printing processes are considered viable as an industrial-production technology, whereby the term additive manufacturing can be used synonymously with 3D printing.',
+				'When most people think of exercise, they usually think of people torturing themselves in a gym with weight machines and running on treadmills like a hamster for hours at a time. Gross. Besides, when you’re traveling, the LAST thing you want to be thinking about is being cooped up in a gym when you should be out exploring your new surroundings. I used to be a gym rat trying to get fit, and it wasn’t until I started traveling that I really had to dig into the motivation behind WHY we should take care of ourselves: So we can do cool activities that remind us why being alive is amazing! We only get one chance on this planet, and we only have one body to do it in, so we should probably take care of ourselves. Luckily, if we can do some basic things and put a few key systems in place while traveling (and when we’re not traveling), we’ll be ready to do whatever, wherever, whenever. Jackpot! This basic strength-training workout is really helpful to having a great experience while traveling. When you strength-train, you build your muscles, joints, and tendons stronger each time — preparing them for any activity you throw at them. Best of all, it’s quick, targets every muscle in your body with just a few functional movements, and can completed anywhere.',
 		},
 		{
 			id: 26,
-			title: 'Solar power',
-			img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Electrical_and_Mechanical_Services_Department_Headquarters_Photovoltaics.jpg/450px-Electrical_and_Mechanical_Services_Department_Headquarters_Photovoltaics.jpg',
-			category: 'Technology',
+			title: 'Travel the World',
+			img: 'https://wallpapercave.com/dwp1x/wp2003930.jpg',
+			category: 'Travel',
 			description:
-				'Solar power is the conversion of energy from sunlight into electricity, either directly using photovoltaics (PV), indirectly using concentrated solar power, or a combination. Photovoltaic cells convert light into an electric current using the photovoltaic effect.[2] Concentrated solar power systems use lenses or mirrors and solar tracking systems to focus a large area of sunlight to a hot spot, often to drive a steam turbine.Photovoltaics were initially solely used as a source of electricity for small and medium-sized applications, from the calculator powered by a single solar cell to remote homes powered by an off-grid rooftop PV system. Commercial concentrated solar power plants were first developed in the 1980s. Since then, as the cost of solar electricity has fallen, grid-connected solar PV systems have grown more or less exponentially. Millions of installations and gigawatt-scale photovoltaic power stations have been and are being built. Solar PV has rapidly become a viable low-carbon technology, and since 2020, provides the cheapest source of electricity in history.',
+				"Leaving to travel around the world was simply the best decision of our lives! Since that one day in 2012 when we decided around a bottle of wine to travel around the world, our lives have been completely disrupted. We travelled full-time for 19 months from China to South America via Southeast Asia, we made dozens of encounters, discovered places that will remain engraved in our memories, got to know other cultures, other languages... We first traveled at full speed, then slowed down to just take the time... the time to talk, to meet, the time that we often lack in our daily lives. Then we returned to Switzerland, we found good jobs in Zurich... it was the end of a beautiful enchanted break. Except that here we were, we had a first taste for travel, freedom and the infinite flexibility that a round the world trip provides... and 18 months later, what was supposed to happen happened! We resigned again to reopen the parenthesis for good this time. Since then we have taken our work with us in our backpacks and exchanged our pretty Swiss apartment for a way of life that suits us better: the digital nomad lifestyle. Since 2012, we have written and shared many blog posts with you about traveling around the world or long-distance travel. On this page, we've tried to put all this in order to help you find your way through all these years of blogging. We hope you will find a lot of useful information but also inspiration that may help you to take your turn in the adventure of a round the world trip.",
 		},
 		{
 			id: 27,
-			title: 'smart device',
-			img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Galaxy_Z_Fold_%26_Z_Flip.jpg/251px-Galaxy_Z_Fold_%26_Z_Flip.jpg',
-			category: 'Technology',
+			title: 'Best Beaches',
+			img: 'https://wallpapercave.com/dwp1x/wp4069425.jpg',
+			category: 'Travel',
 			description:
-				'A smart device is an electronic device, generally connected to other devices or networks via different wireless protocols (such as Bluetooth, Zigbee, near-field communication, Wi-Fi, LiFi, or 5G) that can operate to some extent interactively and autonomously. Several notable types of smart devices are smartphones, smart cars, smart thermostats, smart doorbells, smart locks, smart refrigerators, phablets and tablets, smartwatches, smart bands, smart keychains, smart glasses, and many others. The term can also refer to a device that exhibits some properties of ubiquitous computing, including—although not necessarily—machine learning.',
+				'Much of India is surrounded by the ocean, and the country has some incredibly scenic beaches that offer everything from solitude to parties. The best beaches in India can be found on the west coast, with Goa being the most famous beach destination. However, there are other places to consider, especially if you want to get away from the tourist trail. India now has 10 beaches awarded Blue Flag certification by the Foundation for Environmental Education in Denmark. The beaches are Eden, Ghoghla, Golden, Kappad, Kasarkod, Kovalam, Padubidri, Radhanagar, Rushikonda, and Shivrajpur. The Blue Flag certification means these beaches are clean, safe, and environmentally friendly.',
 		},
 		{
 			id: 28,
-			title: 'blockchain ',
-			img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Bitcoin_Block_Data.svg/435px-Bitcoin_Block_Data.svg.png',
-			category: 'Technology',
+			title: 'Virtual Tours',
+			img: 'https://wallpapercave.com/dwp1x/wp4069431.jpg',
+			category: 'Travel',
 			description:
-				'A blockchain is a type of distributed ledger technology (DLT) that consists of growing list of records, called blocks, that are securely linked together using cryptography.[1][2][3][4] Each block contains a cryptographic hash of the previous block, a timestamp, and transaction data (generally represented as a Merkle tree, where data nodes are represented by leaves). The timestamp proves that the transaction data existed when the block was created. Since each block contains information about the previous block, they effectively form a chain (compare linked list data structure), with each additional block linking to the ones before it. Consequently, blockchain transactions are irreversible in that, once they are recorded, the data in any given block cannot be altered retroactively without altering all subsequent blocks.',
+				"While there's nothing like setting foot inside an iconic museum and laying eyes on a world-famous sculpture created by a renowned artist centuries ago, it's not always possible to hop on a plane to New York City, Paris, or Florence to tour the gallery halls in person. But there is a way to get a little culture and education while you're at home, gaining inspiration and intel for future trips as well. Google Arts & Culture has teamed up with more than 1,200 museums and galleries around the world to bring anyone and everyone virtual tours and online exhibits of some of the most famous museums around the world. You get to 'go to the museum' and never have to leave your couch. Google Arts & Culture's collection includes The British Museum in London, the Van Gogh Museum in Amsterdam, the Guggenheim in New York City, and literally hundreds more places where you can gain knowledge about art, history, and science. Take a look at just some of Google's top museums that are offering online tours and exhibits. And if you're seeking more thoughtful inspiration from the comfort of your own home, museums around the world are sharing their most zen art on social media. Or, for a dose of nature, you can go 'outside' with incredible virtual tours of some of America's best national parks.",
 		},
 		{
 			id: 29,
-			title: ' Hydroponics',
-			img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Hydroponic_onions%2C_NASA_--_17_June_2004.jpg/413px-Hydroponic_onions%2C_NASA_--_17_June_2004.jpg',
-			category: 'Technology',
+			title: '1st Time Flyers',
+			img: 'https://wallpapercave.com/dwp1x/wp4069435.jpg',
+			category: 'Travel',
 			description:
-				'Hydroponics[1] is a type of horticulture and a subset of hydroculture which involves growing plants, usually crops, without soil, by using water-based mineral nutrient solutions in aqueous solvents. Terrestrial or aquatic plants may grow with their roots exposed to the nutritious liquid or in addition, the roots may be mechanically supported by an inert medium such as perlite, gravel, or other substrates.[2]Despite inert media, roots can cause changes of the rhizosphere pH and root exudates can affect rhizosphere biology and physiological balance of the nutrient solution by secondary metabolites.[3][4][5] Transgenic plants grown hydroponically allow the release of pharmaceutical proteins as part of the root exudate into the hydroponic medium',
+				"There are a few things you should know and familiarise yourself with, to make your first flight as stress-free and comfortable as possible. Here is a guide with all that you need to know, from booking a flight to navigating the airport to getting onto the plane. This will certainly ease your travel fear and get you ready for the journey ahead. Documets required are ID Card, Passport, visa, Boarding pass. Travel documents should be placed in your hand baggage because you may be asked for it anytime for verification of identity. Travel light for an enjoyable journey. If you wish to carry more, check with your airlines on baggage weight allowed before you travel. Each Airline has its own set of guidelines for luggage. Ensure to check with the Airline's website or call the airline regarding the baggage guidelines to avoid the last minute hassles while checking-in at the Airport. Ensure that you do not carry any prohibited items in your baggage or it’ll be confiscated by the officials at the Airport. Upon reaching the Airport, you will be required to show your ID. Officials at the counter will check the required documents to verify your identity. After verification, you will be issued a boarding pass which will have all the details of your travel like Flight number, seat number, scheduled departure time of the flight. Newbie’s word of advice: Make sure to secure the boarding pass along with your travel documents. There’s a chance that you can miss it in the breathtaking experience of making your maiden flight.",
 		},
 		{
 			id: 30,
-			title: 'agricultural aircraft',
-			img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Crop_Duster.jpg/330px-Crop_Duster.jpg',
-			category: 'Technology',
+			title: 'Travelling Continents',
+			img: 'https://wallpapercave.com/dwp1x/wp2004052.jpg',
+			category: 'Travel',
 			description:
-				'An agricultural aircraft is an aircraft that has been built or converted for agricultural use – usually aerial application of pesticides (crop dusting) or fertilizer (aerial topdressing); in these roles they are referred to as crop dusters or top dressers. Agricultural aircraft are also used for hydroseeding.The most common agricultural aircraft are fixed-wing, such as the Air Tractor, Cessna Ag-wagon, Gippsland GA200, Grumman Ag Cat, PZL-106 KRUK, M-18 Dromader, PAC Fletcher, Piper PA-36 Pawnee Brave, Embraer EMB 202 Ipanema, and Rockwell Thrush Commander but helicopters are also used.',
-		},
-		{
-			id: 31,
-			title: 'Running',
-			img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Ludovic_and_Lauren_%288425515069%29.jpg/330px-Ludovic_and_Lauren_%288425515069%29.jpg',
-			category: 'Fitness',
-			description:
-				'Running is a method of terrestrial locomotion allowing humans and other animals to move rapidly on foot. Running is a type of gait characterized by an aerial phase in which all feet are above the ground (though there are exceptions).[1] This is in contrast to walking, where one foot is always in contact with the ground, the legs are kept mostly straight and the center of gravity vaults over the stance leg or legs in an inverted pendulum fashion.[2] A feature of a running body from the viewpoint of spring-mass mechanics is that changes in kinetic and potential energy within a stride occur simultaneously, with energy storage accomplished by springy tendons and passive muscle elasticity.[3] The term running can refer to any of a variety of speeds ranging from jogging to sprinting.Running in humans is associated with improved health and life expectancy.[4]',
-		},
-		{
-			id: 32,
-			title: 'Skateboarding',
-			img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Lenna_skates_in_front_of_the_Barclays_Center_-_Brooklyn%2C_NY.jpg/330px-Lenna_skates_in_front_of_the_Barclays_Center_-_Brooklyn%2C_NY.jpg',
-			category: 'Fitness',
-			description:
-				'Skateboarding is an action sport originating in the United States that involves riding and performing tricks using a skateboard, as well as a recreational activity, an art form, an entertainment industry job, and a method of transportation.[1][2] Skateboarding has been shaped and influenced by many skateboarders throughout the years. A 2009 report found that the skateboarding market is worth an estimated $4.8 billion in annual revenue, with 11.08 million active skateboarders in the world.[3] In 2016, it was announced that skateboarding would be represented at the 2020 Summer Olympics in Tokyo, for both male and female teams.[4]',
-		},
-		{
-			id: 33,
-			title: ' Swimming ',
-			img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Natacio.jpg/330px-Natacio.jpg',
-			category: 'Fitness',
-			description:
-				'Swimming is the self-propulsion of a person through water, or other liquid, usually for recreation, sport, exercise, or survival. Locomotion is achieved through coordinated movement of the limbs and the body to achieve hydrodynamic thrust which results in directional motion. Humans can hold their breath underwater and undertake rudimentary locomotive swimming within weeks of birth, as a survival response.Swimming is consistently among the top public recreational activities,[2][3][4][5] and in some countries, swimming lessons are a compulsory part of the educational curriculum.[6] As a formalized sport, swimming is featured in a range of local, national, and international competitions, including every modern Summer Olympics.Swimming involves repeated motions known as strokes in order to propel the body forward. While the front crawl, also known as freestyle, is widely regarded as the fastest out of four primary strokes, other strokes are practiced for special purposes, such as for training.',
-		},
-		{
-			id: 34,
-			title: 'football',
-			img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Football_in_Bloomington%2C_Indiana%2C_1996.jpg/450px-Football_in_Bloomington%2C_Indiana%2C_1996.jpg',
-			category: 'Fitness',
-			description:
-				"football or soccer,[a] is a team sport played between two teams of 11 players who primarily use their feet to propel the ball around a rectangular field called a pitch. The objective of the game is to score more goals than the opposition by moving the ball beyond the goal line into the opposing side's rectangular framed goal. Traditionally, the game has been played over two 45 minute halves, for a total match time of 90 minutes. With an estimated 250 million players active in over 200 countries, it is considered the world's most popular sport.",
-		},
-		{
-			id: 35,
-			title: 'deadlift',
-			img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Deadlift-phase_1.JPG/300px-Deadlift-phase_1.JPG',
-			category: 'Fitness',
-			description:
-				'The deadlift is a weight training exercise in which a loaded barbell or bar is lifted off the ground to the level of the hips, torso perpendicular to the floor, before being placed back on the ground. It is one of the three powerlifting exercises, along with the squat and bench press.Depending on which style one chooses to use, different muscles will be targeted. For example, with a conventional stance, the back, hamstrings, and glutes will be targeted primarily. With a sumo stance, the quads and glutes will be primarily targeted',
-		},
-		{
-			id: 37,
-			title: 'Should yoga be done on an empty stomach? Here’s what experts say ',
-			img: 'https://images.indianexpress.com/2022/04/GettyImages-yoga-1200.jpg',
-			category: 'mix',
-			description:
-				'o one will understand you or your body the way you do so make sure you listen to it, protect it, do good things for it and celebrate it,” they saidYoga is now the preferred choice of many, to stay fit, active and agile. It helps in numerous ways, be it in improving flexibility, strength and posture, or reducing stress and providing a sense of calm. Nutrition and diet are an important part of fitness along with physical exercise. On that account, it becomes necessary to understand whether yoga should be done on an empty stomach or notAnshuka Parwani, a yoga expert, and Pooja Makhija, a nutritionist took to Instagram to talk about this dilemma that many face.Pooja believes that it’s important to have something before starting with your exercise in the morning. It should be quite light and not too heavy to kickstart your metabolism.While both have contrasting opinions, they strongly agreed and upheld the point that you know your body better than anyone else. Hence, it’s important to observe and understand what your body is trying to tell you and do as one may deem fit. They said, if practising yoga on an empty stomach is suiting you better, do that. On the other hand, if it feels like you need something to get a better start, follow that as a part of your routine.    ',
-		},
-		{
-			id: 36,
-			title: '  squat',
-			img: 'https://images.indianexpress.com/2022/05/sooraj-pancholi_1200_insta.jpg',
-			category: 'Fitness',
-			description:
-				'A squat is a strength exercise in which the trainee lowers their hips from a standing position and then stands back up. During the descent of a squat, the hip and knee joints flex while the ankle joint dorsiflexes; conversely the hip and knee joints extend and the ankle joint plantarflexes when standing up.',
-		},
-		{
-			id: 37,
-			title: 'bench press, or chest press',
-			img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Bench_press_1.jpg/330px-Bench_press_1.jpg',
-			category: 'Fitness',
-			description:
-				'The bench press, or chest press, is a weight training exercise in which the trainee presses a weight upwards while lying on a weight training bench. Although the bench press is a full-body exercise, the muscles primarily used are the pectoralis major, the anterior deltoids, and the triceps, among other stabilizing muscles. A barbell is generally used to hold the weight, but a pair of dumbbells can also be used',
-		},
-		{
-			id: 38,
-			title: 'push-up',
-			img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Liegestuetz02_ani_fcm.gif/330px-Liegestuetz02_ani_fcm.gif',
-			category: 'Fitness',
-			description:
-				'The push-up (sometimes called a press-up in British English) is a common calisthenics exercise beginning from the prone position. By raising and lowering the body using the arms, push-ups exercise the pectoral muscles, triceps, and anterior deltoids, with ancillary benefits to the rest of the deltoids, serratus anterior, coracobrachialis and the midsection as a whole.[1] Push-ups are a basic exercise used in civilian athletic training or physical education and commonly in military physical training. They are also a common form of punishment used in the military, school sport, and some martial arts disciplines.',
-		},
-		{
-			id: 39,
-			title: 'plank',
-			img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/A_U.S._Coast_Guard_recruit%2C_assigned_to_Company_Oscar_188%2C_performs_a_plank_during_incentive_training_at_Coast_Guard_Training_Center_Cape_May_in_Cape_May%2C_N.J.%2C_July_31%2C_2013_130731-G-WA946-943.jpg/330px-thumbnail.jpg',
-			category: 'Fitness',
-			description: 'The plank (also called a front hold, hover, or abdominal bridge) is an isometric core strength exercise that involves maintaining a position similar to a push-up for the maximum possible time.',
-		},
-		{
-			id: 40,
-			title: 'pull-up ',
-			img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9AXn_oQAl9E-nVXWxlvbZGBpRsqG5ua2n4Q&usqp=CAU',
-			category: 'Fitness',
-			description:
-				'A pull-up is an upper-body strength exercise. The pull-up is a closed-chain movement where the body is suspended by the hands, gripping a bar or other implement at a distance typically wider than shoulder-width, and pulled up. As this happens, the elbows flex and the shoulders adduct and extend to bring the elbows to the torso.Pull-ups build up several muscles of the upper body, including the latissimus dorsi, trapezius, and biceps brachii. A pull-up may be performed with overhand (pronated), underhand (supinated), neutral, or rotating hand position. The term chin-up is sometimes used to refer to the pull-up performed with supinated grip.',
-		},
-		{
-			id: 41,
-			title: 'Tandoori chicken',
-			img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Tandoori_chicken_laccha_piyaz1_%2836886283595%29.jpg/330px-Tandoori_chicken_laccha_piyaz1_%2836886283595%29.jpg',
-			category: 'Food',
-			description: 'Tandoori chicken is a South Asian dish of chicken marinated in yogurt and spices and roasted in a tandoor, a cylindrical clay oven. The dish is now popular world-wide. The modern form of the dish was popularized by the Moti Mahal restaurant in New Delhi in the late 1940s.',
-		},
-		{
-			id: 42,
-			title: 'South Indian cuisine',
-			img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Tamil_Nadu_Non-Vegetarian_Meals.png/330px-Tamil_Nadu_Non-Vegetarian_Meals.png',
-			category: 'Food',
-			description:
-				'South Indian cuisine includes the cuisines of the five southern states of India—Andhra Pradesh, Karnataka, Kerala, Tamil Nadu and Telangana—and the union territories of Lakshadweep, Pondicherry, and the Andaman and Nicobar Islands.There are typically vegetarian and non-vegetarian dishes for all five states. Additionally, all regions have typical main dishes, snacks, light meals, desserts, and drinks that are well known in their respective region.',
-		},
-		{
-			id: 43,
-			title: 'North Indian cuisine',
-			img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Vegetarian_Curry.jpeg/288px-Vegetarian_Curry.jpeg',
-			category: 'Food',
-			description: 'North Indian cuisine is collectively the cuisine of Northern India, which includes the cuisines of Jammu and Kashmir, Punjab, Haryana, Himachal Pradesh, Rajasthan, Uttarakhand, Delhi, Uttar Pradesh and adjoining western Bihar.',
-		},
-		{
-			id: 44,
-			title: 'Rajasthani cuisine',
-			img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Royal_Rajasthani_Thali_at_Suvarna_Mahal%2C_Ram_Bagh_Hotel%2C_Jaipur.jpg/330px-Royal_Rajasthani_Thali_at_Suvarna_Mahal%2C_Ram_Bagh_Hotel%2C_Jaipur.jpg',
-			category: 'Food',
-			description:
-				'Rajasthani cuisine (Hindi: राजस्थानी व्यञ्जन) is the cuisine of the rugged Rajasthan region in North West India. It was influenced by both the warlike lifestyles of its inhabitants and the availability of ingredients in an arid region.[1] Food that could last for several days and could be eaten without heating was preferred. Scarcity of water and fresh green vegetables have all had their effect on the cooking. It is also known for its snacks like Bikaneri bhujia, Mirchi bada and Pyaaj kachori. Other famous dishes include Dal Baati, malaidar special lassi (lassi) and Lashun ki chutney (hot garlic paste), Mawa lassi from Jodhpur, Alwar ka mawa, Malpauas from Pushkar and rasgulla from Bikaner, paniya and gheriya from Mewar. Originating for the Marwar region of the state is the concept Marwari Bhojnalaya, or vegetarian restaurants, today found in many parts of India, which offer vegetarian food of the Marwari people. The history also has its effect on the diet as the Rajputs preferred majorly a non-vegetarian diet while the Brahmin, Jains, and others preferred a vegetarian diet. So, the state has a myriad of both types of delicacies.According to a 2014 survey released by the registrar general of India, Rajasthan has 74.9% vegetarians, which makes it the most vegetarian state in India.',
-		},
-		{
-			id: 45,
-			title: 'Mandi',
-			img: 'http://wirally.com/wp-content/uploads/2019/07/Untitled-design-151.png',
-			category: 'Food',
-			description:
-				'Mandi (Arabic: مندي) is a traditional dish that originated from Hadhramaut, Yemen,[2] consisting mainly of meat and rice with a special blend of spices, cooked in a pit underground. It is popular and commonly consumed in most areas of the Arabian Peninsula, and even considered a staple dish in many regions. It is also found in Egypt, India, the Levant and Turkey.Homemade mandi from Yemen In Yemen Mandi is popular among the Hadhrami people.Mandi was usually made from rice, meat(lamb, camel, goat or chicken), and a mixture of spices called hawaij.The main technique that differentiates mandi from other meat dishes is that the meat is cooked in the taboon.[3]',
-		},
-		{
-			id: 46,
-			title: 'Biryani',
-			img: 'https://www.cubesnjuliennes.com/wp-content/uploads/2020/07/Chicken-Biryani-Recipe-500x500.jpg',
-			category: 'food',
-			description:
-				'Biryani  is a mixed rice dish originating among the Muslims of the Indian subcontinent. It is made with Indian spices, rice, and usually some type of meat (chicken, beef, goat, lamb, prawn, fish) or in some cases without any meat, and sometimes, in addition, eggs and potatoes.[1]Biryani is one of the most popular dishes in South Asia, as well as among the diaspora from the region. Similar dishes are also prepared in other parts of the world such as in Iraq, Thailand, and Malaysia.[2] Biryani is the single most-ordered dish on Indian online food ordering and delivery services.',
-		},
-		{
-			id: 46,
-			title: 'Kebab',
-			img: 'https://static.toiimg.com/thumb/58360750.cms?imgsize=347996&width=800&height=800',
-			category: 'Food',
-			description:
-				'Kebab or kabob (North American) is a type of cooked meat dish that originates from cuisines of the Middle East. Many variants of the category are popular around the world, including the skewered shish kebab and the doner kebab with bread.Kebabs consist of cut up or ground meat, sometimes with vegetables and various other accompaniments according to the specific recipe. Although kebabs are typically cooked on a skewer over a fire, some kebab dishes are oven-baked in a pan, or prepared as a stew such as tas kebab.[1][2] The traditional meat for kebabs is most often lamb meat, but regional recipes may include beef, goat, chicken, fish, or even pork (depending on whether or not there are specific religious prohibitions)',
-		},
-		{
-			id: 47,
-			title: 'Naga Cuisine is Just as Rich And Flavourful as its Culture',
-			img: 'https://images.news18.com/ibnlive/uploads/2021/12/nagaland-16386760023x2.jpg?impolicy=website&width=510&height=356',
-			category: 'Food',
-			description:
-				'Nagaland is known for its cultural, ethnic and linguistic diversity. The state boasts a rich socio-cultural heritage comprising several local tribes, each having their own distinct ethnic traditions. The northeastern state is also a favourite destination for nature lovers because of its diverse flora and fauna, forests, splendid valleys and waterfalls.Nagaland also has its own unique cuisines which are rich in flavour and represent the food culture of different tribal groups.Naga cuisine is based on the local produce that has been available to tribes. It mostly includes fish, meat, rice, herbs, vegetables and fermented grains. The food is definitely different than what you are used to so you may rethink trying, but there are many dishes which are delicious and worth trying at least once. To understand Naga cuisine and what a common resident consumes, you can visit the Central Market in Kohima. The market will offer you a glimpse into the exotic Naga tribal food items like mefi (wriggling hornet grubs), frogs, silkworms, snails, crabs, dried fish and pork, among others. The market also offers exotic condiments such as dried and fermented bamboo shoots, fiery king chillies and plethora of vegetables as well as a variety of leaves, which are intergral to Naga cuisine.A routine Naga meal will include rice, pork or any other meat, fish, boiled or steamed vegetables and side dishes like a variety of chutney or pickles.Axone, fermented soybean paste, is an important part of Naga cuisine. Axone, also known as Akhuni, is used in a variety of preparations like pickles, chutneys, curries and non-veg dishes',
-		},
-		{
-			id: 48,
-			title: 'Fruits and Vegetables are Losing Their Nutrient Value, Know the Risks',
-			img: 'https://images.news18.com/ibnlive/uploads/2021/12/untitled-3-276-16409377143x2.jpg?impolicy=website&width=510&height=356',
-			category: 'Food',
-			description:
-				'Every now and then, we stress upon the fact of eating lots of fruits and vegetables as they are packed with nutrients. They are said to be the best way to provide nutrition to the body and boost immunity. Every season comes with a variety of grains, vegetables, and fruits and we can’t agree more that they are tastier than the stored ones. However, do you know with time the nutrition value of fruits and vegetables are declining? Yes, you read that right. With time, due to various reasons that nutrition in fruits and vegetables have declined tremendously leaving us with various deficiencies. According to a National Geographic report, the experts find the root of the problem in the quality of soil. In the last few decades, the soil quality has been compromised due to various reasons including excessive chemical use, fertilisers, irrigation and so on. The harvesting methods have changed from natural ways to machineries which has also taken a dig at the health of the soil. Apart from it, due to global warming and climate change, the atmospheric temperature is rising and making the soil lose its moisture even more that do not hold the crops well putting them in risk of losing nutrition.The report also states that due to carbon dioxide increase in the air, the nutrient content of the fruits, vegetables and other crops are pulling down.David R. Montgomery, a professor of geomorphology at the University of Washington in Seattle emphasis on one of the major risks of the lower nutrient value, that is making our immunity low. According to him, “Nutrient decline is going to leave our bodies with fewer of the components they need to mount defences against chronic diseases — it’s going to undercut the value of food as preventive medicine,” state National Geographic.',
-		},
-		{
-			id: 49,
-			title: 'These Harmless Summer Drinks are Perfect for Diabetic Patients',
-			img: 'https://images.news18.com/ibnlive/uploads/2022/05/summer-drink-16518193713x2.jpg?impolicy=website&width=510&height=356',
-			category: 'Food',
-			description:
-				'The summer season is here with soaring temperatures and dehydrating weather. And they call for cold and refreshing drinks. While many of these drinks are healthy and rehydrating, the sugar content in them might not be healthy for diabetic patients. This makes it difficult for people suffering from the chronic disease to stay hydrated and have all essential electrolytes up to their necessary levels. Here are 5 summer coolers that are healthy and contain zero sugar for diabetic patients to enjoy and help stay hydrated. Sattu is a special and popular food in Bihar. One of oldest drinks in India, Sattu cooler is the perfect way to stay hydrated for diabetic patients. It has no carbohydrates and can be enjoyed just by adding sattu powder to cold water along with some black salt and squeezing a few drops of lemon to give it a tangy touch. Spinach, beetroot, fruit juice of choice and some coconut water blended together can be a very beneficial smoothie for you even if you’re non-diabetic. Make sure that the fruit you choose is a low sugar content one and reap the benefits of this wonderful nutritious smoothie.Take 2 cups of chilled curd, a glass of water, some ice cubes and a teaspoon of cumin powder. Blend it all and you have this tasty sugarless drink ready. Salted lassi is a summer cooler that diabetic patients can enjoy without the worry of their disease aggravating.Bel or wood apple is a great source of natural fibre, iron, antioxidants and folates. Along with this it cools your stomach. If you suffer from diabetes, bel sherbet can prove to be very beneficial for you during the scorching summers.',
-		},
-		{
-			id: 58,
-			title: 'These Harmless Summer Drinks are Perfect for Diabetic Patients',
-			img: 'https://images.news18.com/ibnlive/uploads/2022/05/summer-drink-16518193713x2.jpg?impolicy=website&width=510&height=356',
-			category: 'mix',
-			description:
-				'The summer season is here with soaring temperatures and dehydrating weather. And they call for cold and refreshing drinks. While many of these drinks are healthy and rehydrating, the sugar content in them might not be healthy for diabetic patients. This makes it difficult for people suffering from the chronic disease to stay hydrated and have all essential electrolytes up to their necessary levels. Here are 5 summer coolers that are healthy and contain zero sugar for diabetic patients to enjoy and help stay hydrated. Sattu is a special and popular food in Bihar. One of oldest drinks in India, Sattu cooler is the perfect way to stay hydrated for diabetic patients. It has no carbohydrates and can be enjoyed just by adding sattu powder to cold water along with some black salt and squeezing a few drops of lemon to give it a tangy touch. Spinach, beetroot, fruit juice of choice and some coconut water blended together can be a very beneficial smoothie for you even if you’re non-diabetic. Make sure that the fruit you choose is a low sugar content one and reap the benefits of this wonderful nutritious smoothie.Take 2 cups of chilled curd, a glass of water, some ice cubes and a teaspoon of cumin powder. Blend it all and you have this tasty sugarless drink ready. Salted lassi is a summer cooler that diabetic patients can enjoy without the worry of their disease aggravating.Bel or wood apple is a great source of natural fibre, iron, antioxidants and folates. Along with this it cools your stomach. If you suffer from diabetes, bel sherbet can prove to be very beneficial for you during the scorching summers.',
-		},
-		{
-			id: 50,
-			title: 'Unable to Find Tofu at Local Store? Here’s an Easy Recipe to Make it at Home',
-			img: 'https://images.news18.com/ibnlive/uploads/2022/04/tofu-16510624083x2.jpg?impolicy=website&width=510&height=356',
-			category: 'Food',
-			description:
-				'If you are a fitness enthusiast and a vegan, you might be one of the people who have tofu in their meals instead of paneer. While many people find it easily in the supermarket, others may find it difficult to spot tofu at their local stores. If you are one of those people, don’t worry as this simple method can help you make protein-rich tofu at home with just two ingredients – chickpeas and water.Once the tofu is set, you can use it as and when required. It is as tasty as the tofu bought from a store and tofu is as versatile as cottage cheese. It can be used in dry and wet recipes depending on your mood and diet requirements. Chickpea is rich in protein and hence the tofu is a great source of protein to help you complete the daily protein requirement.Soak the chickpeas overnight after thoroughly washing with the help of a strainer under running water.Drain all the water and wash the chickpeas the next day. Add chickpeas with two cups of water in a blender and blend in batches until you have a smooth mixture.Strain the blended chickpeas through a muslin cloth into a bowl. Make a squeezable bag out of the muslin cloth with the mixture in it. Squeeze the blend well to strain it nicely. As the water drains slowly from the mixture, it takes some time to strain the blend.Take the strained blend and put it in a pot. Keep the pot on full flame and let the mixture boil. Once you see bubbles, lower the flame and cook the blend for another half n hour. The mixture will thicken with time. When it is thick enough, put off the flame and let the blend cool down for a while. Leave the mixture in a container for more than 2 hours idle. This will ensure that the mixture sits and the tofu sets properly',
+				'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum doloremque repudiandae ipsa iusto corporis. Aliquam rerum vitae inventore quis! Ducimus cumque aspernatur, iusto exercitationem sint adipisci soluta illum ipsum nam veniam delectus enim labore dicta minima sed magni, deserunt quasi accusamus aperiam earum fugiat ex? Maiores itaque repudiandae iusto! Inventore?Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque qui blanditiis ut itaque dolores cupiditate exercitationem sapiente, assumenda voluptatibus aliquam.\n Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum doloremque repudiandae ipsa iusto corporis. Aliquam rerum vitae inventore quis! Ducimus cumque aspernatur, iusto exercitationem sint adipisci soluta illum ipsum nam veniam delectus enim labore dicta minima sed magni, deserunt quasi accusamus aperiam earum fugiat ex? Maiores itaque repudiandae iusto! Inventore?Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque qui blanditiis ut itaque dolores cupiditate exercitationem sapiente, assumenda voluptatibus aliquam.',
 		},
 	]);
 });
